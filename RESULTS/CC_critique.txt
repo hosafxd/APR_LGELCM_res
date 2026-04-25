@@ -83,18 +83,7 @@ Reason:
 
 ---
 
-### DEGREE PROBLEM
 
-* TEST: very low score (0.16)
-* TEST_3: high score (0.78)
-
-Reason:
-
-* Degree words vary a lot
-  → “mild”, “slight”, “minimal”, etc.
-* Some words are missing in the synonym list
-
-👉 If a word is not in the cache → matching fails
 
 ---
 
@@ -146,14 +135,6 @@ BUT:
 
 ✔ Fix: convert right+left → bilateral
 
----
-
-### B) Synonym coverage problem
-
-* Missing words in synonym cache
-* Causes matching failure
-
-✔ Fix: rebuild cache for each dataset
 
 ---
 
@@ -205,7 +186,6 @@ BUT there are two types of problems:
 
 ### CATEGORY 2 — Data sensitivity problems
 
-* Synonym cache not updated
 * Extra entity penalty
 * Missing degree terms
 
