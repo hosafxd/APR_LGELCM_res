@@ -1,0 +1,2154 @@
+[
+  {
+    "source_file": "valid_3_a_1",
+    "ground_truth": [
+      {
+        "anchor": "obstructive pathology (observation:absent)",
+        "related": [
+          "lumen (location:present)"
+        ]
+      },
+      {
+        "anchor": "mediastinal main vascular structures (location:present)",
+        "related": [
+          "normal (degree:present)"
+        ]
+      },
+      {
+        "anchor": "heart contour (location:present)",
+        "related": [
+          "normal (degree:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "tumoral wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "sliding type hiatal hernia (observation:present)",
+        "related": [
+          "lower end of esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "enlarged lymph nodes (observation:absent)",
+        "related": [
+          "prevascular (location:present)",
+          "pre-paratracheal (location:present)",
+          "subcarinal (location:present)",
+          "bilateral hilar-axillary (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodular images (observation:present)",
+        "related": [
+          "right lung (location:present)",
+          "6x2.5 mm (measurement:current)",
+          "major fissure (location:present)"
+        ]
+      },
+      {
+        "anchor": "focal nodular opacity (observation:present)",
+        "related": [
+          "right lung middle lobe adjacent to major fissure (location:present)",
+          "left lung lower lobe basal segment (location:present)",
+          "left lung lower lobe superior segment (location:present)",
+          "right lung lower lobe mediobasal segment (location:present)"
+        ]
+      },
+      {
+        "anchor": "ultra-early Covid-19 pneumonia (observation:uncertain)",
+        "related": []
+      },
+      {
+        "anchor": "mass lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "upper abdominal organs (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "natural (observation:present)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "preserved (observation:present)",
+        "related": [
+          "vertebral corpus heights (location:present)"
+        ]
+      },
+      {
+        "anchor": "hiatal hernia (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "trachea (location:present)",
+        "related": [
+          "centrally located (degree:present)"
+        ]
+      },
+      {
+        "anchor": "patent (observation:present)",
+        "related": [
+          "central airways (location:present)"
+        ]
+      },
+      {
+        "anchor": "endoluminal obstruction (observation:absent)",
+        "related": [
+          "central airways (location:present)"
+        ]
+      },
+      {
+        "anchor": "within normal limits (observation:present)",
+        "related": [
+          "cardiomediastinal silhouette (location:present)",
+          "major great vessels (location:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial fluid collection (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal caliber (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "neoplastic wall thickening (observation:absent)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "sliding gastroesophageal herniation (observation:present)",
+        "related": [
+          "distal esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathological lymphadenopathy (observation:absent)",
+        "related": [
+          "prevascular (location:present)",
+          "paratracheal (location:present)",
+          "subcarinal (location:present)",
+          "hilar (location:present)",
+          "axillary (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodular densities (observation:present)",
+        "related": [
+          "6x2.5 mm (measurement:current)",
+          "right oblique (major) fissure (location:present)"
+        ]
+      },
+      {
+        "anchor": "perifissural/intrapulmonary lymph nodes (observation:uncertain)",
+        "related": [
+          "right oblique (major) fissure (location:present)"
+        ]
+      },
+      {
+        "anchor": "focal nodular opacities (observation:present)",
+        "related": [
+          "right middle lobe (location:present)",
+          "basal segment of left lower lobe (location:present)",
+          "medial basal segment of right lower lobe (location:present)"
+        ]
+      },
+      {
+        "anchor": "localized vascular engorgement (observation:present)",
+        "related": [
+          "right middle lobe (location:present)",
+          "basal segment of left lower lobe (location:present)",
+          "medial basal segment of right lower lobe (location:present)"
+        ]
+      },
+      {
+        "anchor": "hyperacute/incipient viral pneumonitis (observation:uncertain)",
+        "related": []
+      },
+      {
+        "anchor": "dominant circumscribed pulmonary mass (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "unremarkable (observation:present)",
+        "related": [
+          "upper abdominal solid organs (location:present)"
+        ]
+      },
+      {
+        "anchor": "focal space-occupying lesions (observation:absent)",
+        "related": [
+          "liver (location:present)",
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "intact (observation:present)",
+        "related": [
+          "osseous structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "preservation of vertebral body statics (observation:present)",
+        "related": [
+          "osseous structures (location:present)"
+        ]
+      }
+    ],
+    "evaluation_results": {
+      "observation": {
+        "ground_truth": {
+          "matched": [
+            {
+              "eid": "gt_4_anchor",
+              "value": "normal",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_5_anchor",
+              "value": "tumoral wall thickening",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "gt_7_anchor",
+              "value": "enlarged lymph nodes",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "gt_12_anchor",
+              "value": "normal",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_14_anchor",
+              "value": "normal",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_16_anchor",
+              "value": "natural",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            }
+          ],
+          "unmatched": [
+            {
+              "eid": "gt_0_anchor",
+              "value": "obstructive pathology",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_3_anchor",
+              "value": "pericardial effusion-thickening",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_6_anchor",
+              "value": "sliding type hiatal hernia",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_8_anchor",
+              "value": "nodular images",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_9_anchor",
+              "value": "focal nodular opacity",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_10_anchor",
+              "value": "ultra-early covid-19 pneumonia",
+              "field": "observation",
+              "status": "uncertain",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_11_anchor",
+              "value": "mass lesion",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_13_anchor",
+              "value": "space-occupying lesion",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_15_anchor",
+              "value": "space-occupying lesion",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_17_anchor",
+              "value": "preserved",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_18_anchor",
+              "value": "hiatal hernia",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            }
+          ]
+        },
+        "prediction": {
+          "matched": [
+            {
+              "eid": "pred_6_anchor",
+              "value": "normal caliber",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "pred_9_anchor",
+              "value": "pathological lymphadenopathy",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "pred_16_anchor",
+              "value": "unremarkable",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            }
+          ],
+          "unmatched": [
+            {
+              "eid": "pred_1_anchor",
+              "value": "patent",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_2_anchor",
+              "value": "endoluminal obstruction",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_3_anchor",
+              "value": "within normal limits",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_4_anchor",
+              "value": "pericardial fluid collection",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_5_anchor",
+              "value": "pericardial thickening",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_7_anchor",
+              "value": "neoplastic wall thickening",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_8_anchor",
+              "value": "sliding gastroesophageal herniation",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_10_anchor",
+              "value": "nodular densities",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_11_anchor",
+              "value": "perifissural/intrapulmonary lymph nodes",
+              "field": "observation",
+              "status": "uncertain",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_12_anchor",
+              "value": "focal nodular opacities",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_13_anchor",
+              "value": "localized vascular engorgement",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_14_anchor",
+              "value": "hyperacute/incipient viral pneumonitis",
+              "field": "observation",
+              "status": "uncertain",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_15_anchor",
+              "value": "dominant circumscribed pulmonary mass",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_17_anchor",
+              "value": "focal space-occupying lesions",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_18_anchor",
+              "value": "intact",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_19_anchor",
+              "value": "preservation of vertebral body statics",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            }
+          ]
+        }
+      },
+      "location": {
+        "ground_truth": {
+          "matched": [
+            {
+              "eid": "gt_1_anchor",
+              "value": "mediastinal main vascular structures",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "gt_2_anchor",
+              "value": "heart contour",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "gt_4_rel_0",
+              "value": "thoracic esophagus",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_7_rel_0",
+              "value": "prevascular",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_7_rel_1",
+              "value": "pre-paratracheal",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_7_rel_2",
+              "value": "subcarinal",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_12_rel_0",
+              "value": "upper abdominal organs",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_16_rel_0",
+              "value": "bone structures",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            }
+          ],
+          "unmatched": [
+            {
+              "eid": "gt_0_rel_0",
+              "value": "lumen",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_6_rel_0",
+              "value": "lower end of esophagus",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_7_rel_3",
+              "value": "bilateral hilar-axillary",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_8_rel_0",
+              "value": "right lung",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_8_rel_2",
+              "value": "major fissure",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_9_rel_0",
+              "value": "right lung middle lobe adjacent to major fissure",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_9_rel_1",
+              "value": "left lung lower lobe basal segment",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_9_rel_2",
+              "value": "left lung lower lobe superior segment",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_9_rel_3",
+              "value": "right lung lower lobe mediobasal segment",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_11_rel_0",
+              "value": "both lungs",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_13_rel_0",
+              "value": "liver",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_14_rel_0",
+              "value": "bilateral adrenal glands",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_17_rel_0",
+              "value": "vertebral corpus heights",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_18_rel_0",
+              "value": "both lungs",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            }
+          ]
+        },
+        "prediction": {
+          "matched": [
+            {
+              "eid": "pred_0_anchor",
+              "value": "trachea",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "pred_6_rel_0",
+              "value": "thoracic esophagus",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "pred_9_rel_0",
+              "value": "prevascular",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "pred_9_rel_1",
+              "value": "paratracheal",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "pred_9_rel_2",
+              "value": "subcarinal",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "pred_16_rel_0",
+              "value": "upper abdominal solid organs",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            }
+          ],
+          "unmatched": [
+            {
+              "eid": "pred_1_rel_0",
+              "value": "central airways",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_2_rel_0",
+              "value": "central airways",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_3_rel_0",
+              "value": "cardiomediastinal silhouette",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_3_rel_1",
+              "value": "major great vessels",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_7_rel_0",
+              "value": "thoracic esophagus",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_8_rel_0",
+              "value": "distal esophagus",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_9_rel_3",
+              "value": "hilar",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_9_rel_4",
+              "value": "axillary",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_10_rel_1",
+              "value": "right oblique (major) fissure",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_11_rel_0",
+              "value": "right oblique (major) fissure",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_12_rel_0",
+              "value": "right middle lobe",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_12_rel_1",
+              "value": "basal segment of left lower lobe",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_12_rel_2",
+              "value": "medial basal segment of right lower lobe",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_13_rel_0",
+              "value": "right middle lobe",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_13_rel_1",
+              "value": "basal segment of left lower lobe",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_13_rel_2",
+              "value": "medial basal segment of right lower lobe",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_17_rel_0",
+              "value": "liver",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_17_rel_1",
+              "value": "bilateral adrenal glands",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_18_rel_0",
+              "value": "osseous structures",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_19_rel_0",
+              "value": "osseous structures",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            }
+          ]
+        }
+      },
+      "degree": {
+        "ground_truth": {
+          "matched": [
+            {
+              "eid": "gt_1_rel_0",
+              "value": "normal",
+              "field": "degree",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_2_rel_0",
+              "value": "normal",
+              "field": "degree",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            }
+          ],
+          "unmatched": [
+            {
+              "eid": "gt_5_rel_0",
+              "value": "significant",
+              "field": "degree",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            }
+          ]
+        },
+        "prediction": {
+          "matched": [
+            {
+              "eid": "pred_0_rel_0",
+              "value": "centrally located",
+              "field": "degree",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            }
+          ],
+          "unmatched": []
+        }
+      },
+      "trend": {
+        "ground_truth": {
+          "matched": [],
+          "unmatched": []
+        },
+        "prediction": {
+          "matched": [],
+          "unmatched": []
+        }
+      }
+    }
+  },
+  {
+    "source_file": "valid_1_a_1",
+    "ground_truth": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)",
+          "heart contour (location:present)",
+          "size (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic esophageal (location:present)"
+        ]
+      },
+      {
+        "anchor": "tumoral wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "enlarged lymph nodes (observation:absent)",
+        "related": [
+          "prevascular (location:present)",
+          "pre-paratracheal (location:present)",
+          "subcarinal (location:present)",
+          "bilateral hilar-axillary (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "a few millimetric (degree:present)",
+          "nonspecific (degree:present)",
+          "upper lobe of right lung (location:present)",
+          "lower lobe of right lung (location:present)"
+        ]
+      },
+      {
+        "anchor": "recessions (observation:present)",
+        "related": [
+          "mild (degree:present)",
+          "upper lobe of right lung (location:present)",
+          "lower lobe of right lung (location:present)"
+        ]
+      },
+      {
+        "anchor": "aeration (observation:present)",
+        "related": [
+          "both lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "upper abdominal organs (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural (observation:present)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "preserved (observation:present)",
+        "related": [
+          "vertebral corpus heights (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "a few millimetric (degree:present)",
+          "nonspecific (degree:present)",
+          "upper lobe of right lung (location:present)",
+          "lower lobe of right lung (location:present)"
+        ]
+      },
+      {
+        "anchor": "recessions (observation:present)",
+        "related": [
+          "slight (degree:present)",
+          "upper lobe of right lung (location:present)",
+          "lower lobe of right lung (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "patent (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "mainstem bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "unremarkable (observation:present)",
+        "related": [
+          "cardiomediastinal silhouette (location:present)",
+          "major vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "within physiological limits (observation:present)",
+        "related": [
+          "thoracic aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal distension (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "focal mural thickening (observation:absent)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathological lymphadenopathy (observation:absent)",
+        "related": [
+          "mediastinal nodal stations (location:present)",
+          "hilar nodal stations (location:present)",
+          "axillary nodal stations (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "few (degree:present)",
+          "punctate (degree:present)",
+          "indeterminate (degree:present)",
+          "right upper lobe (location:present)",
+          "right lower lobe (location:present)"
+        ]
+      },
+      {
+        "anchor": "retractions (observation:present)",
+        "related": [
+          "subtle (degree:present)",
+          "focal (degree:present)",
+          "right upper lobe (location:present)",
+          "right lower lobe (location:present)"
+        ]
+      },
+      {
+        "anchor": "well-maintained (observation:present)",
+        "related": [
+          "bilateral lung aeration (location:present)"
+        ]
+      },
+      {
+        "anchor": "consolidations (observation:absent)",
+        "related": [
+          "focal (degree:absent)",
+          "bilateral lung (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative processes (observation:absent)",
+        "related": [
+          "focal (degree:absent)",
+          "bilateral lung (location:present)"
+        ]
+      },
+      {
+        "anchor": "clear of effusions (observation:present)",
+        "related": [
+          "pleural spaces (location:present)"
+        ]
+      },
+      {
+        "anchor": "clear of thickening (observation:present)",
+        "related": [
+          "pleural spaces (location:present)"
+        ]
+      },
+      {
+        "anchor": "unremarkable (observation:present)",
+        "related": [
+          "upper abdominal viscera (location:present)"
+        ]
+      },
+      {
+        "anchor": "focal space-occupying masses (observation:absent)",
+        "related": [
+          "liver (location:present)",
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "intact (observation:present)",
+        "related": [
+          "osseous structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "maintenance of normal vertebral body heights (observation:present)",
+        "related": [
+          "osseous structures (location:present)"
+        ]
+      }
+    ],
+    "evaluation_results": {
+      "observation": {
+        "ground_truth": {
+          "matched": [
+            {
+              "eid": "gt_0_anchor",
+              "value": "open",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_1_anchor",
+              "value": "normal",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_2_anchor",
+              "value": "normal",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_4_anchor",
+              "value": "normal",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_6_anchor",
+              "value": "enlarged lymph nodes",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "gt_7_anchor",
+              "value": "nodules",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_9_anchor",
+              "value": "aeration",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "gt_10_anchor",
+              "value": "infiltrative lesion",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "gt_12_anchor",
+              "value": "normal",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_14_anchor",
+              "value": "normal",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_16_anchor",
+              "value": "natural",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_17_anchor",
+              "value": "preserved",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "gt_18_anchor",
+              "value": "nodules",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            }
+          ],
+          "unmatched": [
+            {
+              "eid": "gt_3_anchor",
+              "value": "pericardial effusion-thickening",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_5_anchor",
+              "value": "tumoral wall thickening",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_8_anchor",
+              "value": "recessions",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_11_anchor",
+              "value": "pleural effusion-thickening",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_13_anchor",
+              "value": "space-occupying lesion",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_15_anchor",
+              "value": "space-occupying lesion",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_19_anchor",
+              "value": "recessions",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            }
+          ]
+        },
+        "prediction": {
+          "matched": [
+            {
+              "eid": "pred_1_anchor",
+              "value": "unremarkable",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "pred_4_anchor",
+              "value": "thickening",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "pred_7_anchor",
+              "value": "pathological lymphadenopathy",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "pred_8_anchor",
+              "value": "nodules",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "pred_10_anchor",
+              "value": "well-maintained",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "pred_15_anchor",
+              "value": "unremarkable",
+              "field": "observation",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            }
+          ],
+          "unmatched": [
+            {
+              "eid": "pred_0_anchor",
+              "value": "patent",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_2_anchor",
+              "value": "within physiological limits",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_3_anchor",
+              "value": "pericardial effusion",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_5_anchor",
+              "value": "normal distension",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_6_anchor",
+              "value": "focal mural thickening",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_9_anchor",
+              "value": "retractions",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_11_anchor",
+              "value": "consolidations",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_12_anchor",
+              "value": "infiltrative processes",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_13_anchor",
+              "value": "clear of effusions",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_14_anchor",
+              "value": "clear of thickening",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_16_anchor",
+              "value": "focal space-occupying masses",
+              "field": "observation",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_17_anchor",
+              "value": "intact",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_18_anchor",
+              "value": "maintenance of normal vertebral body heights",
+              "field": "observation",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            }
+          ]
+        }
+      },
+      "location": {
+        "ground_truth": {
+          "matched": [
+            {
+              "eid": "gt_0_rel_0",
+              "value": "trachea",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_0_rel_1",
+              "value": "main bronchi",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_1_rel_0",
+              "value": "mediastinal main vascular structures",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_1_rel_1",
+              "value": "heart contour",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "gt_4_rel_0",
+              "value": "thoracic esophageal",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_7_rel_2",
+              "value": "upper lobe of right lung",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_7_rel_3",
+              "value": "lower lobe of right lung",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_9_rel_0",
+              "value": "both lung parenchyma",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "gt_10_rel_0",
+              "value": "lung parenchyma",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_expanded_cui"
+            },
+            {
+              "eid": "gt_12_rel_0",
+              "value": "upper abdominal organs",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_16_rel_0",
+              "value": "bone structures",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_18_rel_2",
+              "value": "upper lobe of right lung",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_18_rel_3",
+              "value": "lower lobe of right lung",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            }
+          ],
+          "unmatched": [
+            {
+              "eid": "gt_1_rel_2",
+              "value": "size",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_2_rel_0",
+              "value": "thoracic aorta",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_6_rel_0",
+              "value": "prevascular",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_6_rel_1",
+              "value": "pre-paratracheal",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_6_rel_2",
+              "value": "subcarinal",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_6_rel_3",
+              "value": "bilateral hilar-axillary",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_8_rel_1",
+              "value": "upper lobe of right lung",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_8_rel_2",
+              "value": "lower lobe of right lung",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_13_rel_0",
+              "value": "liver",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_14_rel_0",
+              "value": "bilateral adrenal glands",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_15_rel_0",
+              "value": "bilateral adrenal glands",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_17_rel_0",
+              "value": "vertebral corpus heights",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_19_rel_1",
+              "value": "upper lobe of right lung",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_19_rel_2",
+              "value": "lower lobe of right lung",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            }
+          ]
+        },
+        "prediction": {
+          "matched": [
+            {
+              "eid": "pred_1_rel_0",
+              "value": "cardiomediastinal silhouette",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "pred_1_rel_1",
+              "value": "major vascular structures",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "pred_8_rel_3",
+              "value": "right upper lobe",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "pred_8_rel_4",
+              "value": "right lower lobe",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "pred_11_rel_1",
+              "value": "bilateral lung",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_expanded_embed"
+            },
+            {
+              "eid": "pred_15_rel_0",
+              "value": "upper abdominal viscera",
+              "field": "location",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            }
+          ],
+          "unmatched": [
+            {
+              "eid": "pred_0_rel_0",
+              "value": "trachea",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_0_rel_1",
+              "value": "mainstem bronchi",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_2_rel_0",
+              "value": "thoracic aorta",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_5_rel_0",
+              "value": "thoracic esophagus",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_6_rel_0",
+              "value": "thoracic esophagus",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_7_rel_0",
+              "value": "mediastinal nodal stations",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_7_rel_1",
+              "value": "hilar nodal stations",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_7_rel_2",
+              "value": "axillary nodal stations",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_9_rel_2",
+              "value": "right upper lobe",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_9_rel_3",
+              "value": "right lower lobe",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_10_rel_0",
+              "value": "bilateral lung aeration",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_12_rel_1",
+              "value": "bilateral lung",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_13_rel_0",
+              "value": "pleural spaces",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_14_rel_0",
+              "value": "pleural spaces",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_16_rel_0",
+              "value": "liver",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_16_rel_1",
+              "value": "bilateral adrenal glands",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_17_rel_0",
+              "value": "osseous structures",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_18_rel_0",
+              "value": "osseous structures",
+              "field": "location",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            }
+          ]
+        }
+      },
+      "degree": {
+        "ground_truth": {
+          "matched": [
+            {
+              "eid": "gt_7_rel_1",
+              "value": "nonspecific",
+              "field": "degree",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "gt_18_rel_1",
+              "value": "nonspecific",
+              "field": "degree",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            }
+          ],
+          "unmatched": [
+            {
+              "eid": "gt_5_rel_0",
+              "value": "significant",
+              "field": "degree",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_7_rel_0",
+              "value": "a few millimetric",
+              "field": "degree",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_8_rel_0",
+              "value": "mild",
+              "field": "degree",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_18_rel_0",
+              "value": "a few millimetric",
+              "field": "degree",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "gt_19_rel_0",
+              "value": "slight",
+              "field": "degree",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            }
+          ]
+        },
+        "prediction": {
+          "matched": [
+            {
+              "eid": "pred_8_rel_0",
+              "value": "few",
+              "field": "degree",
+              "status": "present",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            },
+            {
+              "eid": "pred_11_rel_0",
+              "value": "focal",
+              "field": "degree",
+              "status": "absent",
+              "is_matched": true,
+              "match_type": "flexible_direct"
+            }
+          ],
+          "unmatched": [
+            {
+              "eid": "pred_8_rel_1",
+              "value": "punctate",
+              "field": "degree",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_8_rel_2",
+              "value": "indeterminate",
+              "field": "degree",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_9_rel_0",
+              "value": "subtle",
+              "field": "degree",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_9_rel_1",
+              "value": "focal",
+              "field": "degree",
+              "status": "present",
+              "is_matched": false,
+              "match_type": ""
+            },
+            {
+              "eid": "pred_12_rel_0",
+              "value": "focal",
+              "field": "degree",
+              "status": "absent",
+              "is_matched": false,
+              "match_type": ""
+            }
+          ]
+        }
+      },
+      "trend": {
+        "ground_truth": {
+          "matched": [],
+          "unmatched": []
+        },
+        "prediction": {
+          "matched": [],
+          "unmatched": []
+        }
+      }
+    }
+  }
+]

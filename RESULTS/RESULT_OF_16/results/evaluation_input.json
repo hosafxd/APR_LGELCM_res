@@ -1,0 +1,3620 @@
+[
+  {
+    "report_id": "valid_100_a_1",
+    "ground_truth": [
+      {
+        "anchor": "hypodense nodule (observation:present)",
+        "related": [
+          "32 mm (measurement:current)",
+          "right thyroid lobe (location:present)"
+        ]
+      },
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "fusiform dilatation (observation:present)",
+        "related": [
+          "main pulmonary artery (location:present)",
+          "43 mm (measurement:current)",
+          "right pulmonary artery (location:present)",
+          "33 mm (measurement:current)",
+          "left pulmonary artery (location:present)",
+          "35 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "heart size increased (observation:present)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial thickening-effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "calcific atherosclerotic changes (observation:present)",
+        "related": [
+          "thoracic aorta (location:present)",
+          "coronary artery walls (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathological wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "lymph nodes (observation:present)",
+        "related": [
+          "multiple (degree:present)",
+          "22 mm (measurement:current)",
+          "mediastinal (location:present)",
+          "upper-lower paratracheal (location:present)",
+          "aorticopulmonary window (location:present)",
+          "prevascular area (location:present)",
+          "subcarinal area (location:present)"
+        ]
+      },
+      {
+        "anchor": "Parenchymal fibrosis areas (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "structural distortion (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "prominence in interlobular septa (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "honeycomb appearance (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "frosted glass-like density increases (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "traction bronchiectasis (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "peribronchial thickenings (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural thickening-effusion (observation:absent)",
+        "related": [
+          "bilateral (location:present)"
+        ]
+      },
+      {
+        "anchor": "gall bladder (location:absent)",
+        "related": [
+          "upper abdominal sections (location:present)"
+        ]
+      },
+      {
+        "anchor": "subcapsular parenchymal calcifications (observation:present)",
+        "related": [
+          "1 cm (measurement:current)",
+          "posterior right lobe of the liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "thoracic kyphosis (observation:present)",
+        "related": [
+          "increased (trend:present)"
+        ]
+      },
+      {
+        "anchor": "degenerative changes (observation:present)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "minimal (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "linear atelectasis (observation:present)",
+        "related": [
+          "right lung middle lobe medial segment (location:present)",
+          "left lung upper lobe lingular segment (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "millimetric (degree:present)",
+          "nonspecific (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "heart contour (location:present)",
+          "heart size (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "atheromatous plaques (observation:present)",
+        "related": [
+          "aorta (location:present)",
+          "coronary arteries (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "sliding type hiatal hernia (observation:present)",
+        "related": [
+          "lower end of esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "fractures (observation:absent)",
+        "related": [
+          "bones within sections (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bones within sections (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1001_a_1",
+    "ground_truth": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "millimetric (degree:present)",
+          "nonspecific (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "heart contour (location:present)",
+          "heart size (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)",
+          "pathological size (degree:absent)",
+          "pathological appearance (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "wall thickness increase (observation:absent)",
+        "related": [
+          "esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdominal (location:present)",
+          "pathological (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "lymph nodes (observation:absent)",
+        "related": [
+          "pathologically enlarged (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "upper abdominal organs (location:present)",
+          "distinguishable borders (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic vertebral corpus heights (location:present)",
+          "alignments (location:present)",
+          "densities (location:present)"
+        ]
+      },
+      {
+        "anchor": "preserved (observation:present)",
+        "related": [
+          "intervertebral disc distances (location:present)"
+        ]
+      },
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "neural foramina (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bone structures within the sections (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)",
+          "heart contour (location:present)",
+          "size (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "tumoral wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "enlarged lymph nodes (observation:absent)",
+        "related": [
+          "prevascular (location:present)",
+          "pre-paratracheal (location:present)",
+          "subcarinal (location:present)",
+          "bilateral hilar-axillary (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodular lesion (observation:absent)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "upper abdominal organs (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural (observation:present)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "preserved (observation:present)",
+        "related": [
+          "vertebral corpus heights (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1003_a_1",
+    "ground_truth": [
+      {
+        "anchor": "triangular density (observation:present)",
+        "related": [
+          "anterior mediastinum (location:present)"
+        ]
+      },
+      {
+        "anchor": "thymic remnant (observation:present)",
+        "related": [
+          "anterior mediastinum (location:present)"
+        ]
+      },
+      {
+        "anchor": "lymph node (observation:present)",
+        "related": [
+          "right upper pratrecheal (location:present)",
+          "millimetric (degree:present)"
+        ]
+      },
+      {
+        "anchor": "pathological LAP (observation:absent)",
+        "related": [
+          "mediastinum (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural appearance (observation:present)",
+        "related": [
+          "heart (location:present)",
+          "mediastinal vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion-thickening (observation:absent)",
+        "related": [
+          "both hemithorax (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodule-infiltration (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "significant pathology (observation:absent)",
+        "related": [
+          "upper part of the abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesion (observation:absent)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "linear atelectasis (observation:present)",
+        "related": [
+          "right lung middle lobe medial segment (location:present)",
+          "left lung upper lobe lingular segment (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "heart contour (location:present)",
+          "heart size (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologic wall thickness increase (observation:absent)",
+        "related": [
+          "esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "upper abdominal free fluid-collection (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "enlarged lymph nodes in pathological dimensions (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "upper abdominal organs (location:present)",
+          "distinguishable borders (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic vertebral corpus heights (location:present)",
+          "thoracic vertebral alignments (location:present)",
+          "thoracic vertebral densities (location:present)"
+        ]
+      },
+      {
+        "anchor": "preserved (observation:present)",
+        "related": [
+          "intervertebral disc distances (location:present)"
+        ]
+      },
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "neural foramina (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bone structures within the sections (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1005_a_1",
+    "ground_truth": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "lymph nodes (observation:present)",
+        "related": [
+          "multiple (degree:present)",
+          "upper-lower paratracheal prevascular area (location:present)",
+          "subcarinal area (location:present)",
+          "largest (degree:present)",
+          "7 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "calcifications (observation:present)",
+        "related": [
+          "diffuse (degree:present)",
+          "pericardium (location:present)",
+          "11 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "heart contour size (observation:present)",
+        "related": [
+          "natural (degree:present)"
+        ]
+      },
+      {
+        "anchor": "calibration (observation:present)",
+        "related": [
+          "thoracic main vascular structures (location:present)",
+          "natural (degree:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial thickening-effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "thoracic esophagus calibration (observation:present)",
+        "related": [
+          "normal (degree:present)"
+        ]
+      },
+      {
+        "anchor": "pathological wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:present)",
+        "related": [
+          "right (location:present)",
+          "26 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "atelectatic changes (observation:present)",
+        "related": [
+          "right (location:present)",
+          "26 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "subsegmental atelectatic changes (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "peribronchial thickenings (observation:present)",
+        "related": [
+          "bilateral (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "minimal (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural (observation:present)",
+        "related": [
+          "upper abdominal sections (location:present)"
+        ]
+      },
+      {
+        "anchor": "calibration (observation:present)",
+        "related": [
+          "bilateral adrenal gland (location:present)",
+          "normal (degree:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "lytic-destructive lesion (observation:absent)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)",
+          "heart contour (location:present)",
+          "size (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "tumoral wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "enlarged lymph nodes (observation:absent)",
+        "related": [
+          "prevascular (location:present)",
+          "pre-paratracheal (location:present)",
+          "subcarinal (location:present)",
+          "bilateral hilar-axillary (location:present)"
+        ]
+      },
+      {
+        "anchor": "thickening of the bronchial wall (observation:present)",
+        "related": [
+          "both lungs (location:present)",
+          "more prominent (degree:present)",
+          "central part (location:present)"
+        ]
+      },
+      {
+        "anchor": "mosaic density differences (observation:present)",
+        "related": [
+          "minimal (degree:present)",
+          "lower lobes (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "millimetric (degree:present)",
+          "nonspecific (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "upper abdominal organs (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "natural (observation:present)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "preserved (observation:present)",
+        "related": [
+          "vertebral corpus heights (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_100_a_2",
+    "ground_truth": [
+      {
+        "anchor": "hypodense nodule (observation:present)",
+        "related": [
+          "32 mm (measurement:current)",
+          "right thyroid lobe (location:present)"
+        ]
+      },
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "fusiform dilatation (observation:present)",
+        "related": [
+          "main pulmonary artery (location:present)",
+          "43 mm (measurement:current)",
+          "right pulmonary artery (location:present)",
+          "33 mm (measurement:current)",
+          "left pulmonary artery (location:present)",
+          "35 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "heart size increased (observation:present)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial thickening-effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "calcific atherosclerotic changes (observation:present)",
+        "related": [
+          "thoracic aorta (location:present)",
+          "coronary artery walls (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathological wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "lymph nodes (observation:present)",
+        "related": [
+          "multiple (degree:present)",
+          "22 mm (measurement:current)",
+          "mediastinal (location:present)",
+          "upper-lower paratracheal (location:present)",
+          "aorticopulmonary window (location:present)",
+          "prevascular area (location:present)",
+          "subcarinal area (location:present)"
+        ]
+      },
+      {
+        "anchor": "Parenchymal fibrosis areas (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "structural distortion (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "prominence in interlobular septa (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "honeycomb appearance (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "frosted glass-like density increases (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "traction bronchiectasis (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "peribronchial thickenings (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural thickening-effusion (observation:absent)",
+        "related": [
+          "bilateral (location:present)"
+        ]
+      },
+      {
+        "anchor": "gall bladder (location:absent)",
+        "related": [
+          "upper abdominal sections (location:present)"
+        ]
+      },
+      {
+        "anchor": "subcapsular parenchymal calcifications (observation:present)",
+        "related": [
+          "1 cm (measurement:current)",
+          "posterior right lobe of the liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "thoracic kyphosis (observation:present)",
+        "related": [
+          "increased (trend:present)"
+        ]
+      },
+      {
+        "anchor": "degenerative changes (observation:present)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "minimal (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "linear atelectasis (observation:present)",
+        "related": [
+          "right lung middle lobe medial segment (location:present)",
+          "left lung upper lobe lingular segment (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "millimetric (degree:present)",
+          "nonspecific (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "heart contour (location:present)",
+          "heart size (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "atheromatous plaques (observation:present)",
+        "related": [
+          "aorta (location:present)",
+          "coronary arteries (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "sliding type hiatal hernia (observation:present)",
+        "related": [
+          "lower end of esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "fractures (observation:absent)",
+        "related": [
+          "bones within sections (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bones within sections (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1001_a_2",
+    "ground_truth": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "millimetric (degree:present)",
+          "nonspecific (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "heart contour (location:present)",
+          "heart size (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)",
+          "pathological size (degree:absent)",
+          "pathological appearance (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "wall thickness increase (observation:absent)",
+        "related": [
+          "esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdominal (location:present)",
+          "pathological (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "lymph nodes (observation:absent)",
+        "related": [
+          "pathologically enlarged (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "upper abdominal organs (location:present)",
+          "distinguishable borders (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic vertebral corpus heights (location:present)",
+          "alignments (location:present)",
+          "densities (location:present)"
+        ]
+      },
+      {
+        "anchor": "preserved (observation:present)",
+        "related": [
+          "intervertebral disc distances (location:present)"
+        ]
+      },
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "neural foramina (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bone structures within the sections (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "lymph nodes (observation:present)",
+        "related": [
+          "right upper-bilateral lower paratracheal (location:present)",
+          "aortopulmonary (degree:present)",
+          "millimetric (degree:present)"
+        ]
+      },
+      {
+        "anchor": "pathological LAP (observation:absent)",
+        "related": [
+          "mediastinum (location:present)"
+        ]
+      },
+      {
+        "anchor": "cardiothoracic index (observation:present)",
+        "related": [
+          "increased (trend:present)",
+          "heart (location:present)"
+        ]
+      },
+      {
+        "anchor": "calcific plaques (observation:present)",
+        "related": [
+          "walls of coronary artery in aortic arch (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion-thickening (observation:absent)",
+        "related": [
+          "both hemithorax (location:present)"
+        ]
+      },
+      {
+        "anchor": "mosaic attenuation (observation:present)",
+        "related": [
+          "both lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "subsegmental atelectasis (observation:present)",
+        "related": [
+          "middle lobe of right lung (location:present)",
+          "lingular segment of left lung (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural (observation:present)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathology (observation:absent)",
+        "related": [
+          "abdominal sections (location:present)",
+          "significant (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesion (observation:absent)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1003_a_2",
+    "ground_truth": [
+      {
+        "anchor": "triangular density (observation:present)",
+        "related": [
+          "anterior mediastinum (location:present)"
+        ]
+      },
+      {
+        "anchor": "thymic remnant (observation:present)",
+        "related": [
+          "anterior mediastinum (location:present)"
+        ]
+      },
+      {
+        "anchor": "lymph node (observation:present)",
+        "related": [
+          "right upper pratrecheal (location:present)",
+          "millimetric (degree:present)"
+        ]
+      },
+      {
+        "anchor": "pathological LAP (observation:absent)",
+        "related": [
+          "mediastinum (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural appearance (observation:present)",
+        "related": [
+          "heart (location:present)",
+          "mediastinal vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion-thickening (observation:absent)",
+        "related": [
+          "both hemithorax (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodule-infiltration (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "significant pathology (observation:absent)",
+        "related": [
+          "upper part of the abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesion (observation:absent)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "atelectasis (observation:present)",
+        "related": [
+          "lower lobe of both lungs (location:present)",
+          "middle lobe of right lung (location:present)",
+          "lingular segment of left lung upper lobe (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "millimetric (degree:present)",
+          "nonspecific (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "heart contour (location:present)",
+          "heart size (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "atheromatous plaques (observation:present)",
+        "related": [
+          "aorta (location:present)",
+          "coronary arteries (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "sliding type hiatal hernia (observation:present)",
+        "related": [
+          "lower end of esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "lymphadenopathy (observation:absent)",
+        "related": [
+          "pathologically enlarged (degree:absent)",
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "fractures (observation:absent)",
+        "related": [
+          "bones within sections (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bones within sections (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1005_a_2",
+    "ground_truth": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "lymph nodes (observation:present)",
+        "related": [
+          "multiple (degree:present)",
+          "upper-lower paratracheal prevascular area (location:present)",
+          "subcarinal area (location:present)",
+          "largest (degree:present)",
+          "7 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "calcifications (observation:present)",
+        "related": [
+          "diffuse (degree:present)",
+          "pericardium (location:present)",
+          "11 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "heart contour size (observation:present)",
+        "related": [
+          "natural (degree:present)"
+        ]
+      },
+      {
+        "anchor": "calibration (observation:present)",
+        "related": [
+          "thoracic main vascular structures (location:present)",
+          "natural (degree:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial thickening-effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "thoracic esophagus calibration (observation:present)",
+        "related": [
+          "normal (degree:present)"
+        ]
+      },
+      {
+        "anchor": "pathological wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:present)",
+        "related": [
+          "right (location:present)",
+          "26 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "atelectatic changes (observation:present)",
+        "related": [
+          "right (location:present)",
+          "26 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "subsegmental atelectatic changes (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "peribronchial thickenings (observation:present)",
+        "related": [
+          "bilateral (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "minimal (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural (observation:present)",
+        "related": [
+          "upper abdominal sections (location:present)"
+        ]
+      },
+      {
+        "anchor": "calibration (observation:present)",
+        "related": [
+          "bilateral adrenal gland (location:present)",
+          "normal (degree:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "lytic-destructive lesion (observation:absent)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)",
+          "heart contour (location:present)",
+          "size (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "tumoral wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "enlarged lymph nodes (observation:absent)",
+        "related": [
+          "prevascular (location:present)",
+          "pre-paratracheal (location:present)",
+          "subcarinal (location:present)",
+          "bilateral hilar-axillary (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodular lesion (observation:absent)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "upper abdominal organs (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural (observation:present)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "preserved (observation:present)",
+        "related": [
+          "vertebral corpus heights (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1000_a_1",
+    "ground_truth": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "heart contour (location:present)",
+          "heart size (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologic wall thickness increase (observation:absent)",
+        "related": [
+          "esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdominal (location:present)"
+        ]
+      },
+      {
+        "anchor": "enlarged lymph nodes (observation:absent)",
+        "related": [
+          "pathological dimensions (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "upper abdominal organs (location:present)",
+          "distinguishable borders (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic vertebral corpus heights (location:present)",
+          "thoracic vertebral alignments (location:present)",
+          "thoracic vertebral densities (location:present)"
+        ]
+      },
+      {
+        "anchor": "preserved (observation:present)",
+        "related": [
+          "intervertebral disc distances (location:present)"
+        ]
+      },
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "neural foramina (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bone structures within the sections (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "atelectasis (observation:present)",
+        "related": [
+          "lower lobe of both lungs (location:present)",
+          "middle lobe of right lung (location:present)",
+          "lingular segment of left lung upper lobe (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "millimetric (degree:present)",
+          "nonspecific (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "heart contour (location:present)",
+          "heart size (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "atheromatous plaques (observation:present)",
+        "related": [
+          "aorta (location:present)",
+          "coronary arteries (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "sliding type hiatal hernia (observation:present)",
+        "related": [
+          "lower end of esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "lymphadenopathy (observation:absent)",
+        "related": [
+          "pathologically enlarged (degree:absent)",
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "fractures (observation:absent)",
+        "related": [
+          "bones within sections (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bones within sections (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1002_a_1",
+    "ground_truth": [
+      {
+        "anchor": "electrodes (observation:present)",
+        "related": [
+          "left chest wall (location:present)",
+          "floor of the ventricle (location:present)"
+        ]
+      },
+      {
+        "anchor": "pacemaker (observation:present)",
+        "related": [
+          "left chest wall (location:present)",
+          "floor of the ventricle (location:present)"
+        ]
+      },
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "dilatation (observation:present)",
+        "related": [
+          "slight (degree:present)",
+          "ascending aorta (location:present)",
+          "38 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "dilatation (observation:present)",
+        "related": [
+          "main pulmonary artery (location:present)",
+          "38 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "calcified atherosclerotic changes (observation:present)",
+        "related": [
+          "thoracic aorta (location:present)",
+          "coronary artery walls (location:present)"
+        ]
+      },
+      {
+        "anchor": "increased heart size (observation:present)",
+        "related": [
+          "significantly (degree:present)"
+        ]
+      },
+      {
+        "anchor": "lymph node (observation:absent)",
+        "related": [
+          "mediastinal (location:present)",
+          "bilateral hilar (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "mild (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "peribronchial thickenings (observation:present)",
+        "related": [
+          "bilateral (location:present)"
+        ]
+      },
+      {
+        "anchor": "free pleural effusion (observation:present)",
+        "related": [
+          "slight (degree:present)",
+          "right (location:present)",
+          "17 mm (measurement:current)",
+          "left (location:present)",
+          "13 mm (measurement:current)",
+          "fissure on the right (location:present)"
+        ]
+      },
+      {
+        "anchor": "irregular contours (observation:present)",
+        "related": [
+          "liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "liver parenchymal disease (observation:uncertain)",
+        "related": [
+          "liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "abdominal aorta diameter (observation:present)",
+        "related": [
+          "32 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "fusiform dilatation (observation:present)",
+        "related": [
+          "abdominal aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "calcified atherosclerotic changes (observation:present)",
+        "related": [
+          "wall of the abdominal aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "degenerative changes (observation:present)",
+        "related": [
+          "bone structure (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesion (observation:absent)",
+        "related": []
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "atelectasis (observation:present)",
+        "related": [
+          "lower lobe of both lungs (location:present)",
+          "middle lobe of right lung (location:present)",
+          "lingular segment of left lung upper lobe (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "millimetric (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "heart contour (location:present)",
+          "heart size (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "atheromatous plaques (observation:present)",
+        "related": [
+          "aorta (location:present)",
+          "coronary arteries (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "sliding type hiatal hernia (observation:present)",
+        "related": [
+          "lower end of esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "lymphadenopathy (observation:absent)",
+        "related": [
+          "pathologically enlarged (degree:absent)",
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "fractures (observation:absent)",
+        "related": [
+          "bones (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bones (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1004_a_1",
+    "ground_truth": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "loculated collection-cystic lesion (observation:present)",
+        "related": [
+          "30x13 mm (measurement:current)",
+          "between paracardiac fatty planes (location:present)",
+          "anterior neighborhood of the ascending aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural calibration (observation:present)",
+        "related": [
+          "thoracic main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "dilatation (observation:absent)",
+        "related": [
+          "thoracic aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural contour size (observation:present)",
+        "related": [
+          "heart (location:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial thickening-effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal calibration (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathological wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)",
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "sliding type hiatal hernia (observation:present)",
+        "related": []
+      },
+      {
+        "anchor": "lymph nodes (observation:present)",
+        "related": [
+          "short axis measuring 2 cm in diameter (degree:current)",
+          "mediastinal lower paratracheal (location:present)",
+          "precarinal (location:present)",
+          "subcarinal (location:present)",
+          "bilateral hilar areas (location:present)",
+          "largest (degree:present)",
+          "subcarinal area (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "mild (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleuroparenchymal sequelae density increases (observation:present)",
+        "related": [
+          "minimal (degree:present)",
+          "both lungs apical (location:present)"
+        ]
+      },
+      {
+        "anchor": "consolidation areas with air bronchogram (observation:present)",
+        "related": [
+          "middle lobe of right lung (location:present)"
+        ]
+      },
+      {
+        "anchor": "infectious process (observation:uncertain)",
+        "related": []
+      },
+      {
+        "anchor": "parenchymal nodules (observation:present)",
+        "related": [
+          "multiple (degree:present)",
+          "both lungs (location:present)",
+          "5 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "natural calibration (observation:present)",
+        "related": [
+          "upper abdominal sections (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal calibration (observation:present)",
+        "related": [
+          "bilateral adrenal gland (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "bilateral adrenal gland (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesion (observation:absent)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)",
+          "heart contour (location:present)",
+          "size (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "tumoral wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "enlarged lymph nodes (observation:absent)",
+        "related": [
+          "prevascular (location:present)",
+          "pre-paratracheal (location:present)",
+          "subcarinal (location:present)",
+          "bilateral hilar-axillary (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodular lesion (observation:absent)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "upper abdominal organs (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural (observation:present)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "preserved (observation:present)",
+        "related": [
+          "vertebral corpus heights (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1005_b_1",
+    "ground_truth": [
+      {
+        "anchor": "pericardial effusion (observation:present)",
+        "related": [
+          "55 mm (measurement:current)",
+          "hyperdense (degree:present)",
+          "hemorrhagic (degree:uncertain)"
+        ]
+      },
+      {
+        "anchor": "calcifications (observation:present)",
+        "related": [
+          "pericardium (location:present)"
+        ]
+      },
+      {
+        "anchor": "surgical materials (observation:present)",
+        "related": [
+          "sternum (location:present)"
+        ]
+      },
+      {
+        "anchor": "air (observation:present)",
+        "related": [
+          "retrosternal region (location:present)",
+          "mediastinum (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:present)",
+        "related": [
+          "bilateral (location:present)",
+          "minimal (degree:present)",
+          "right (location:present)",
+          "20 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdominal (location:present)"
+        ]
+      },
+      {
+        "anchor": "collection (observation:present)",
+        "related": [
+          "retrosternal region (location:present)",
+          "anterior-posterior diameter (measurement:current)",
+          "22 mm (measurement:current)",
+          "xiphoid process (location:present)",
+          "hemorrhagic (degree:uncertain)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bone structures within the sections (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "atelectasis (observation:present)",
+        "related": [
+          "lower lobe of both lungs (location:present)",
+          "middle lobe of right lung (location:present)",
+          "lingular segment of left lung upper lobe (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "millimetric (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "heart contour (location:present)",
+          "heart size (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "atheromatous plaques (observation:present)",
+        "related": [
+          "aorta (location:present)",
+          "coronary arteries (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "sliding type hiatal hernia (observation:present)",
+        "related": [
+          "lower end of esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "lymphadenopathy (observation:absent)",
+        "related": [
+          "pathologically enlarged (degree:absent)",
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "fractures (observation:absent)",
+        "related": [
+          "bones within sections (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bones within sections (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1000_a_2",
+    "ground_truth": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "heart contour (location:present)",
+          "heart size (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologic wall thickness increase (observation:absent)",
+        "related": [
+          "esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdominal (location:present)"
+        ]
+      },
+      {
+        "anchor": "enlarged lymph nodes (observation:absent)",
+        "related": [
+          "pathological dimensions (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "upper abdominal organs (location:present)",
+          "distinguishable borders (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic vertebral corpus heights (location:present)",
+          "thoracic vertebral alignments (location:present)",
+          "thoracic vertebral densities (location:present)"
+        ]
+      },
+      {
+        "anchor": "preserved (observation:present)",
+        "related": [
+          "intervertebral disc distances (location:present)"
+        ]
+      },
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "neural foramina (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bone structures within the sections (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)",
+          "heart contour (location:present)",
+          "size (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "tumoral wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "enlarged lymph nodes (observation:absent)",
+        "related": [
+          "prevascular (location:present)",
+          "pre-paratracheal (location:present)",
+          "subcarinal (location:present)",
+          "bilateral hilar-axillary (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodular lesion (observation:absent)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "upper abdominal organs (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural (observation:present)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "preserved (observation:present)",
+        "related": [
+          "vertebral corpus heights (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1002_a_2",
+    "ground_truth": [
+      {
+        "anchor": "electrodes (observation:present)",
+        "related": [
+          "left chest wall (location:present)",
+          "floor of the ventricle (location:present)"
+        ]
+      },
+      {
+        "anchor": "pacemaker (observation:present)",
+        "related": [
+          "left chest wall (location:present)",
+          "floor of the ventricle (location:present)"
+        ]
+      },
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "dilatation (observation:present)",
+        "related": [
+          "slight (degree:present)",
+          "ascending aorta (location:present)",
+          "38 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "dilatation (observation:present)",
+        "related": [
+          "main pulmonary artery (location:present)",
+          "38 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "calcified atherosclerotic changes (observation:present)",
+        "related": [
+          "thoracic aorta (location:present)",
+          "coronary artery walls (location:present)"
+        ]
+      },
+      {
+        "anchor": "increased heart size (observation:present)",
+        "related": [
+          "significantly (degree:present)"
+        ]
+      },
+      {
+        "anchor": "lymph node (observation:absent)",
+        "related": [
+          "mediastinal (location:present)",
+          "bilateral hilar (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "mild (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "peribronchial thickenings (observation:present)",
+        "related": [
+          "bilateral (location:present)"
+        ]
+      },
+      {
+        "anchor": "free pleural effusion (observation:present)",
+        "related": [
+          "slight (degree:present)",
+          "right (location:present)",
+          "17 mm (measurement:current)",
+          "left (location:present)",
+          "13 mm (measurement:current)",
+          "fissure on the right (location:present)"
+        ]
+      },
+      {
+        "anchor": "irregular contours (observation:present)",
+        "related": [
+          "liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "liver parenchymal disease (observation:uncertain)",
+        "related": [
+          "liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "abdominal aorta diameter (observation:present)",
+        "related": [
+          "32 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "fusiform dilatation (observation:present)",
+        "related": [
+          "abdominal aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "calcified atherosclerotic changes (observation:present)",
+        "related": [
+          "wall of the abdominal aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "degenerative changes (observation:present)",
+        "related": [
+          "bone structure (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesion (observation:absent)",
+        "related": []
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "atelectasis (observation:present)",
+        "related": [
+          "right lung middle lobe medial segment (location:present)",
+          "left lung upper lobe lingular segment (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "millimetric (degree:present)",
+          "nonspecific (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "heart contour (location:present)",
+          "heart size (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "atheromatous plaques (observation:present)",
+        "related": [
+          "aorta (location:present)",
+          "coronary arteries (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "sliding type hiatal hernia (observation:present)",
+        "related": [
+          "lower end of esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdominal (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bone structures within sections (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1004_a_2",
+    "ground_truth": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "loculated collection-cystic lesion (observation:present)",
+        "related": [
+          "30x13 mm (measurement:current)",
+          "between paracardiac fatty planes (location:present)",
+          "anterior neighborhood of the ascending aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural calibration (observation:present)",
+        "related": [
+          "thoracic main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "dilatation (observation:absent)",
+        "related": [
+          "thoracic aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural contour size (observation:present)",
+        "related": [
+          "heart (location:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial thickening-effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal calibration (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathological wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)",
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "sliding type hiatal hernia (observation:present)",
+        "related": []
+      },
+      {
+        "anchor": "lymph nodes (observation:present)",
+        "related": [
+          "short axis measuring 2 cm in diameter (degree:current)",
+          "mediastinal lower paratracheal (location:present)",
+          "precarinal (location:present)",
+          "subcarinal (location:present)",
+          "bilateral hilar areas (location:present)",
+          "largest (degree:present)",
+          "subcarinal area (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "mild (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleuroparenchymal sequelae density increases (observation:present)",
+        "related": [
+          "minimal (degree:present)",
+          "both lungs apical (location:present)"
+        ]
+      },
+      {
+        "anchor": "consolidation areas with air bronchogram (observation:present)",
+        "related": [
+          "middle lobe of right lung (location:present)"
+        ]
+      },
+      {
+        "anchor": "infectious process (observation:uncertain)",
+        "related": []
+      },
+      {
+        "anchor": "parenchymal nodules (observation:present)",
+        "related": [
+          "multiple (degree:present)",
+          "both lungs (location:present)",
+          "5 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "natural calibration (observation:present)",
+        "related": [
+          "upper abdominal sections (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal calibration (observation:present)",
+        "related": [
+          "bilateral adrenal gland (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "bilateral adrenal gland (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesion (observation:absent)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)",
+          "heart contour (location:present)",
+          "size (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "tumoral wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)"
+        ]
+      },
+      {
+        "anchor": "enlarged lymph nodes (observation:absent)",
+        "related": [
+          "prevascular (location:present)",
+          "pre-paratracheal (location:present)",
+          "subcarinal (location:present)",
+          "bilateral hilar-axillary (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodular lesion (observation:absent)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion-thickening (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "upper abdominal organs (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "liver (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "bilateral adrenal glands (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural (observation:present)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "preserved (observation:present)",
+        "related": [
+          "vertebral corpus heights (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "report_id": "valid_1005_b_2",
+    "ground_truth": [
+      {
+        "anchor": "pericardial effusion (observation:present)",
+        "related": [
+          "55 mm (measurement:current)",
+          "hyperdense (degree:present)",
+          "hemorrhagic (degree:uncertain)"
+        ]
+      },
+      {
+        "anchor": "calcifications (observation:present)",
+        "related": [
+          "pericardium (location:present)"
+        ]
+      },
+      {
+        "anchor": "surgical materials (observation:present)",
+        "related": [
+          "sternum (location:present)"
+        ]
+      },
+      {
+        "anchor": "air (observation:present)",
+        "related": [
+          "retrosternal region (location:present)",
+          "mediastinum (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:present)",
+        "related": [
+          "bilateral (location:present)",
+          "minimal (degree:present)",
+          "right (location:present)",
+          "20 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdominal (location:present)"
+        ]
+      },
+      {
+        "anchor": "collection (observation:present)",
+        "related": [
+          "retrosternal region (location:present)",
+          "anterior-posterior diameter (measurement:current)",
+          "22 mm (measurement:current)",
+          "xiphoid process (location:present)",
+          "hemorrhagic (degree:uncertain)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bone structures within the sections (location:present)"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "minimal (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "linear atelectasis (observation:present)",
+        "related": [
+          "right lung middle lobe medial segment (location:present)",
+          "left lung upper lobe lingular segment (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodules (observation:present)",
+        "related": [
+          "millimetric (degree:present)",
+          "nonspecific (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "heart contour (location:present)",
+          "heart size (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "atheromatous plaques (observation:present)",
+        "related": [
+          "aorta (location:present)",
+          "coronary arteries (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "sliding type hiatal hernia (observation:present)",
+        "related": [
+          "lower end of esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "fractures (observation:absent)",
+        "related": [
+          "bones within sections (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bones within sections (location:present)"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,222 @@
+# CC_CRITIQUE — Radiology Report Evaluation (Simplified Version)
+---
+
+## 1. DATA STRUCTURE (WHAT EACH FILE MEANS)
+
+* **RESULT_OF_16/info.md**
+  → Old scoring system created by Claude
+  → Uses a combined score (ROUGE, TF-IDF, Entity Polarity, Jaccard)
+
+* **RESULT_OF_16/results/**
+  → New system (entity matching pipeline in Colab)
+  → Same 16 reports, but different evaluation method
+
+* **RESULT_OF_TEST / TEST_2 / TEST_3**
+  → Only notes about expected similarity levels
+
+* **All results folders**
+  → Same pipeline, same code, different datasets
+
+---
+
+## 2. OLD SYSTEM vs NEW SYSTEM (RESULT_OF_16)
+
+* Old system average score: **49.8%**
+* New system (MACRO_FL): **0.1333**
+
+These numbers are not directly comparable.
+
+### Key observations:
+
+* Both systems rank reports similarly
+  → Worst: `valid_1002_a_1`
+  → Best: `valid_1000_a_1`
+
+* Old system problem:
+  → TF-IDF gives high scores because of repeated medical phrases
+  → Example: “no mass detected”, “trachea open”
+  → These are common templates, not real similarity
+
+* New system advantage:
+  → Focuses on medical entities (real content)
+  → More strict and more meaningful
+
+### Conclusion:
+
+The new system is **better and stricter**.
+Lower scores do NOT mean worse performance — just higher standards.
+
+---
+
+## 3. CROSS-DATASET PROBLEM (INCONSISTENT RESULTS)
+
+Two datasets used the same prompt (“80–90% similar”), but results are very different:
+
+| Metric      | TEST  | TEST_3 |
+| ----------- | ----- | ------ |
+| ROUGE-1     | 0.495 | 0.919  |
+| Obs F1      | 0.421 | 0.851  |
+| Location F1 | 0.286 | 0.591  |
+| Degree F1   | 0.160 | 0.783  |
+| MACRO_FL    | 0.184 | 0.419  |
+
+👉 Scores are about **2× higher in TEST_3**
+
+### Why?
+
+The system is sensitive to **report structure**.
+
+---
+
+### LOCATION PROBLEM
+
+* TEST: too many false positives
+* TEST_3: more correct matches
+
+Reason:
+
+* Different ways to describe the same location
+  → “bilateral lungs” vs “right lung + left lung”
+* System treats them as different
+
+👉 This is not a model problem, but a **normalization problem**
+
+---
+
+### DEGREE PROBLEM
+
+* TEST: very low score (0.16)
+* TEST_3: high score (0.78)
+
+Reason:
+
+* Degree words vary a lot
+  → “mild”, “slight”, “minimal”, etc.
+* Some words are missing in the synonym list
+
+👉 If a word is not in the cache → matching fails
+
+---
+
+### OBSERVATION
+
+* More stable than others
+* But still affected by extra generated entities
+
+Problem:
+
+* Model sometimes generates more entities than ground truth
+* This increases false positives
+
+---
+
+### TREND FIELD
+
+* Almost always zero
+* Lowers the final score
+
+👉 This creates a **hard limit on maximum score**
+
+---
+
+## 4. VALIDATION (DOES THE SYSTEM WORK?)
+
+Results:
+
+* 30–40% similar → 0.0935
+* 80–90% similar → 0.1841
+* 90%+ similar → 0.4191
+* Real model → 0.1333
+
+👉 The system correctly ranks similarity levels
+
+BUT:
+
+* “80–90% similar” dataset is not actually that similar
+* Some reports are harder to paraphrase
+
+---
+
+## 5. MAIN PROBLEMS (ROOT CAUSES)
+
+### A) Location mismatch
+
+* Different levels of detail
+* No “bilateral” normalization
+
+✔ Fix: convert right+left → bilateral
+
+---
+
+### B) Synonym coverage problem
+
+* Missing words in synonym cache
+* Causes matching failure
+
+✔ Fix: rebuild cache for each dataset
+
+---
+
+### C) Too many predicted entities
+
+* Model adds extra correct findings
+* System still penalizes them
+
+✔ Fix: use recall-based metric
+
+---
+
+### D) Trend field issue
+
+* Always zero
+* Reduces max score
+
+✔ Fix: remove empty fields from average
+
+---
+
+### E) Greedy matching problem
+
+* Matching depends on order
+* Not optimal
+
+✔ Fix: use Hungarian algorithm
+
+---
+
+## 6. FINAL ASSESSMENT
+
+The idea of the pipeline is **correct**:
+
+* Entity-based evaluation is better than text similarity
+* It reflects clinical meaning
+
+BUT there are two types of problems:
+
+---
+
+### CATEGORY 1 — Design problems (high priority)
+
+* Trend field reduces score
+* No bilateral normalization
+* Greedy matching
+
+---
+
+### CATEGORY 2 — Data sensitivity problems
+
+* Synonym cache not updated
+* Extra entity penalty
+* Missing degree terms
+
+---
+
+## FINAL CONCLUSION
+
+The system works like a **compass, not a ruler**:
+
+* It correctly shows direction (better vs worse)
+* But exact scores change depending on report structure
+
+👉 Fixing the issues will make it more stable and reliable.
+

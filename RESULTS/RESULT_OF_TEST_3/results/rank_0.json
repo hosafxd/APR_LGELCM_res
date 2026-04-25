@@ -1,0 +1,547 @@
+[
+  {
+    "id": "valid_1004_a_2",
+    "kind": "generated",
+    "input": "Findings: Since the examination was performed without contrast, mediastinal structures were evaluated suboptimally. As far as can be seen; Trachea and lumen of both main bronchi are open. No obstructive pathology was detected in the trachea and lumen of both main bronchi. A 28x14 mm loculated cystic lesion was observed in the paracardiac fatty planes anterior to the ascending aorta. Calibration of thoracic main vascular structures is natural. No dilatation was detected in the thoracic aorta. Heart contour size is natural. Pericardial thickening-effusion was not detected. Thoracic esophagus calibration was normal and no significant pathological wall thickening was detected. Sliding type hiatal hernia was observed. Lymph nodes with a short axis measuring up to 2 cm were observed in the mediastinal lower paratracheal, precarinal, subcarinal and bilateral hilar regions, the largest one being in the subcarinal area. When examined in the lung parenchyma window; Mild emphysematous changes were observed in both lungs. Minimal pleuroparenchymal sequelae density increases were observed in bilateral apical regions. Consolidation areas with air bronchogram were observed in the right lung middle lobe. Clinical-laboratory correlation and post-treatment follow-up are recommended for the infectious process. In both lungs, multiple parenchymal nodules up to 5 mm in size were observed. Upper abdominal sections entering the examination area are natural. Bilateral adrenal gland calibration was normal and no space-occupying lesion was detected. No lytic-destructive lesion was detected in bone structures. Impression: Loculated cystic lesion in the paracardiac fatty planes anterior to the ascending aorta. Mild emphysematous changes in both lungs. Sequelae changes in both lungs. Consolidation area in the right lung middle lobe; Clinical laboratory correlation and post-treatment follow-up for the infectious process are recommended. Multiple parenchymal nodules in both lungs. Mediastinal and hilar lymphadenomegaly. Sliding type hiatal hernia.",
+    "raw_output": "[{\"anchor\": \"open (observation:present)\", \"related\": [\"trachea (location:present)\", \"lumen of both main bronchi (location:present)\"]}, {\"anchor\": \"obstructive pathology (observation:absent)\", \"related\": [\"trachea (location:present)\", \"lumen of both main bronchi (location:present)\"]}, {\"anchor\": \"loculated cystic lesion (observation:present)\", \"related\": [\"28x14 mm (measurement:current)\", \"paracardiac fatty planes anterior to ascending aorta (location:present)\"]}, {\"anchor\": \"natural calibration (observation:present)\", \"related\": [\"thoracic main vascular structures (location:present)\"]}, {\"anchor\": \"dilatation (observation:absent)\", \"related\": [\"thoracic aorta (location:present)\"]}, {\"anchor\": \"natural heart contour size (observation:present)\", \"related\": [\"heart (location:present)\"]}, {\"anchor\": \"pericardial thickening-effusion (observation:absent)\", \"related\": []}, {\"anchor\": \"normal calibration (observation:present)\", \"related\": [\"thoracic esophagus (location:present)\"]}, {\"anchor\": \"pathological wall thickening (observation:absent)\", \"related\": [\"significant (degree:absent)\", \"thoracic esophagus (location:present)\"]}, {\"anchor\": \"sliding type hiatal hernia (observation:present)\", \"related\": []}, {\"anchor\": \"lymph nodes (observation:present)\", \"related\": [\"mediastinal lower paratracheal (location:present)\", \"precarinal (location:present)\", \"subcarinal (location:present)\", \"bilateral hilar regions (location:present)\", \"largest (degree:present)\", \"subcarinal area (location:present)\", \"2 cm (measurement:current)\"]}, {\"anchor\": \"emphysematous changes (observation:present)\", \"related\": [\"mild (degree:present)\", \"both lungs (location:present)\"]}, {\"anchor\": \"pleuroparenchymal sequelae density increases (observation:present)\", \"related\": [\"minimal (degree:present)\", \"bilateral apical regions (location:present)\"]}, {\"anchor\": \"consolidation areas (observation:present)\", \"related\": [\"air bronchogram (degree:present)\", \"right lung middle lobe (location:present)\"]}, {\"anchor\": \"infectious process (observation:uncertain)\", \"related\": []}, {\"anchor\": \"parenchymal nodules (observation:present)\", \"related\": [\"multiple (degree:present)\", \"both lungs (location:present)\", \"5 mm (measurement:current)\"]}, {\"anchor\": \"normal calibration (observation:present)\", \"related\": [\"bilateral adrenal gland (location:present)\"]}, {\"anchor\": \"space-occupying lesion (observation:absent)\", \"related\": [\"bilateral adrenal gland (location:present)\"]}, {\"anchor\": \"lytic-destructive lesion (observation:absent)\", \"related\": [\"bone structures (location:present)\"]}]",
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "obstructive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "loculated cystic lesion (observation:present)",
+        "related": [
+          "28x14 mm (measurement:current)",
+          "paracardiac fatty planes anterior to ascending aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural calibration (observation:present)",
+        "related": [
+          "thoracic main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "dilatation (observation:absent)",
+        "related": [
+          "thoracic aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural heart contour size (observation:present)",
+        "related": [
+          "heart (location:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial thickening-effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal calibration (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathological wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)",
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "sliding type hiatal hernia (observation:present)",
+        "related": []
+      },
+      {
+        "anchor": "lymph nodes (observation:present)",
+        "related": [
+          "mediastinal lower paratracheal (location:present)",
+          "precarinal (location:present)",
+          "subcarinal (location:present)",
+          "bilateral hilar regions (location:present)",
+          "largest (degree:present)",
+          "subcarinal area (location:present)",
+          "2 cm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "mild (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleuroparenchymal sequelae density increases (observation:present)",
+        "related": [
+          "minimal (degree:present)",
+          "bilateral apical regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "consolidation areas (observation:present)",
+        "related": [
+          "air bronchogram (degree:present)",
+          "right lung middle lobe (location:present)"
+        ]
+      },
+      {
+        "anchor": "infectious process (observation:uncertain)",
+        "related": []
+      },
+      {
+        "anchor": "parenchymal nodules (observation:present)",
+        "related": [
+          "multiple (degree:present)",
+          "both lungs (location:present)",
+          "5 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "normal calibration (observation:present)",
+        "related": [
+          "bilateral adrenal gland (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "bilateral adrenal gland (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesion (observation:absent)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valid_1004_a_2",
+    "kind": "ground_truth",
+    "input": "Findings: Mediastinal structures were evaluated as suboptimal since the examination was unenhanced. As far as can be seen; Trachea and lumen of both main bronchi are open. No occlusive pathology was detected in the trachea and lumen of both main bronchi. A 30x13 mm loculated collection-cystic lesion was observed between the paracardiac fatty planes in the anterior neighborhood of the ascending aorta. Calibration of thoracic main vascular structures is natural. No dilatation was detected in the thoracic aorta. Heart contour size is natural. Pericardial thickening-effusion was not detected. Thoracic esophagus calibration was normal and no significant pathological wall thickening was detected. Sliding type hiatal hernia was observed. Lymph nodes with a short axis measuring 2 cm in diameter were observed in the mediastinal lower paratracheal, precarinal, subcarinal and bilateral hilar areas, and the largest in the subcarinal area. When examined in the lung parenchyma window; Mild emphysematous changes were observed in both lungs. Minimal pleuroparenchymal sequelae density increases were observed in both lungs apical. Consolidation areas with air bronchogram were observed in the middle lobe of the right lung. Clinical-laboratory correlation and post-treatment control are recommended for the infectious process. In both lungs, multiple parenchymal nodules measuring 5 mm in diameter were observed. Upper abdominal sections entering the examination area are natural. Bilateral adrenal gland calibration was normal and no space-occupying lesion was detected. No lytic-destructive lesion was detected in bone structures. Impression: Loculated collection-cystic lesion between paracardiac fatty planes in the anterior neighborhood of the ascending aorta.  Mild emphysematous changes in both lungs.  Sequelae changes in both lungs.  Consolidation area in the middle lobe of the right lung; Clinical laboratory correlation and post-treatment control for the infectious process are recommended.  Multiple parenchymal nodules in both lungs.  Mediastinal and hilar lymphadenomegaly.  Sliding type hiatal hernia.",
+    "raw_output": "[{\"anchor\": \"open (observation:present)\", \"related\": [\"trachea (location:present)\", \"lumen of both main bronchi (location:present)\"]}, {\"anchor\": \"occlusive pathology (observation:absent)\", \"related\": [\"trachea (location:present)\", \"lumen of both main bronchi (location:present)\"]}, {\"anchor\": \"loculated collection-cystic lesion (observation:present)\", \"related\": [\"30x13 mm (measurement:current)\", \"between paracardiac fatty planes (location:present)\", \"anterior neighborhood of the ascending aorta (location:present)\"]}, {\"anchor\": \"natural calibration (observation:present)\", \"related\": [\"thoracic main vascular structures (location:present)\"]}, {\"anchor\": \"dilatation (observation:absent)\", \"related\": [\"thoracic aorta (location:present)\"]}, {\"anchor\": \"natural heart contour size (observation:present)\", \"related\": []}, {\"anchor\": \"pericardial thickening-effusion (observation:absent)\", \"related\": []}, {\"anchor\": \"normal calibration (observation:present)\", \"related\": [\"thoracic esophagus (location:present)\"]}, {\"anchor\": \"pathological wall thickening (observation:absent)\", \"related\": [\"significant (degree:absent)\", \"thoracic esophagus (location:present)\"]}, {\"anchor\": \"sliding type hiatal hernia (observation:present)\", \"related\": []}, {\"anchor\": \"lymph nodes (observation:present)\", \"related\": [\"short axis measuring 2 cm in diameter (degree:current)\", \"mediastinal lower paratracheal (location:present)\", \"precarinal (location:present)\", \"subcarinal (location:present)\", \"bilateral hilar areas (location:present)\", \"largest (degree:present)\", \"subcarinal area (location:present)\"]}, {\"anchor\": \"emphysematous changes (observation:present)\", \"related\": [\"mild (degree:present)\", \"both lungs (location:present)\"]}, {\"anchor\": \"pleuroparenchymal sequelae density increases (observation:present)\", \"related\": [\"minimal (degree:present)\", \"both lungs apical (location:present)\"]}, {\"anchor\": \"consolidation areas with air bronchogram (observation:present)\", \"related\": [\"middle lobe of right lung (location:present)\"]}, {\"anchor\": \"infectious process (observation:uncertain)\", \"related\": []}, {\"anchor\": \"parenchymal nodules (observation:present)\", \"related\": [\"multiple (degree:present)\", \"both lungs (location:present)\", \"5 mm (measurement:current)\"]}, {\"anchor\": \"normal calibration (observation:present)\", \"related\": [\"bilateral adrenal gland (location:present)\"]}, {\"anchor\": \"space-occupying lesion (observation:absent)\", \"related\": [\"bilateral adrenal gland (location:present)\"]}, {\"anchor\": \"lytic-destructive lesion (observation:absent)\", \"related\": [\"bone structures (location:present)\"]}]",
+    "entities": [
+      {
+        "anchor": "open (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "lumen of both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "loculated collection-cystic lesion (observation:present)",
+        "related": [
+          "30x13 mm (measurement:current)",
+          "between paracardiac fatty planes (location:present)",
+          "anterior neighborhood of the ascending aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural calibration (observation:present)",
+        "related": [
+          "thoracic main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "dilatation (observation:absent)",
+        "related": [
+          "thoracic aorta (location:present)"
+        ]
+      },
+      {
+        "anchor": "natural heart contour size (observation:present)",
+        "related": []
+      },
+      {
+        "anchor": "pericardial thickening-effusion (observation:absent)",
+        "related": []
+      },
+      {
+        "anchor": "normal calibration (observation:present)",
+        "related": [
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathological wall thickening (observation:absent)",
+        "related": [
+          "significant (degree:absent)",
+          "thoracic esophagus (location:present)"
+        ]
+      },
+      {
+        "anchor": "sliding type hiatal hernia (observation:present)",
+        "related": []
+      },
+      {
+        "anchor": "lymph nodes (observation:present)",
+        "related": [
+          "short axis measuring 2 cm in diameter (degree:current)",
+          "mediastinal lower paratracheal (location:present)",
+          "precarinal (location:present)",
+          "subcarinal (location:present)",
+          "bilateral hilar areas (location:present)",
+          "largest (degree:present)",
+          "subcarinal area (location:present)"
+        ]
+      },
+      {
+        "anchor": "emphysematous changes (observation:present)",
+        "related": [
+          "mild (degree:present)",
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleuroparenchymal sequelae density increases (observation:present)",
+        "related": [
+          "minimal (degree:present)",
+          "both lungs apical (location:present)"
+        ]
+      },
+      {
+        "anchor": "consolidation areas with air bronchogram (observation:present)",
+        "related": [
+          "middle lobe of right lung (location:present)"
+        ]
+      },
+      {
+        "anchor": "infectious process (observation:uncertain)",
+        "related": []
+      },
+      {
+        "anchor": "parenchymal nodules (observation:present)",
+        "related": [
+          "multiple (degree:present)",
+          "both lungs (location:present)",
+          "5 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "normal calibration (observation:present)",
+        "related": [
+          "bilateral adrenal gland (location:present)"
+        ]
+      },
+      {
+        "anchor": "space-occupying lesion (observation:absent)",
+        "related": [
+          "bilateral adrenal gland (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesion (observation:absent)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valid_1005_b_2",
+    "kind": "generated",
+    "input": "Findings: Mediastinal structures cannot be evaluated optimally since contrast material was not administered. As far as can be observed: The heart is minimally enlarged. Pericardial effusion measuring approximately 53 mm at its thickest part is observed. Pericardial effusion appears hyperdense and was considered to be hemorrhagic in nature. Calcifications are also noted in the pericardium. Surgical materials are observed in the sternum. Air is observed in the retrosternal region and mediastinum, compatible with postoperative change. Bilateral minimal pleural effusion, more prominent on the right, is observed. The pleural effusion measured approximately 20 mm at its thickest point. The widths of the mediastinal main vascular structures are normal. No pathologically enlarged lymph nodes were detected in the mediastinum and hilar regions. Trachea and both main bronchi are normal. No occlusive pathology was detected in the trachea and both main bronchi. No mass or infiltrative lesion was detected in either lung. No upper abdominal free fluid or collection was observed in the sections. In the retrosternal region, there is a collection with an anterior-posterior diameter of 22 mm at its widest point, extending towards the subcutaneous fatty tissue at the level of the xiphoid process. The collection was considered hemorrhagic. This collection appears to be continuous with the pericardial effusion. No lytic-destructive lesions were detected in the bone structures within the sections.Impression: Pericardial effusion thought to be hemorrhagic in content. Calcifications in the pericardium. Bilateral minimal pleural effusion.",
+    "raw_output": "[{\"anchor\": \"enlarged (observation:present)\", \"related\": [\"heart (location:present)\", \"minimally (degree:present)\"]}, {\"anchor\": \"pericardial effusion (observation:present)\", \"related\": [\"53 mm (measurement:current)\", \"hyperdense (degree:present)\", \"hemorrhagic (degree:uncertain)\"]}, {\"anchor\": \"calcifications (observation:present)\", \"related\": [\"pericardium (location:present)\"]}, {\"anchor\": \"surgical materials (observation:present)\", \"related\": [\"sternum (location:present)\"]}, {\"anchor\": \"air (observation:present)\", \"related\": [\"retrosternal region (location:present)\", \"mediastinum (location:present)\"]}, {\"anchor\": \"pleural effusion (observation:present)\", \"related\": [\"bilateral (location:present)\", \"minimal (degree:present)\", \"right (location:present)\", \"20 mm (measurement:current)\"]}, {\"anchor\": \"normal (observation:present)\", \"related\": [\"mediastinal main vascular structures (location:present)\"]}, {\"anchor\": \"enlarged lymph nodes (observation:absent)\", \"related\": [\"mediastinum (location:present)\", \"hilar regions (location:present)\"]}, {\"anchor\": \"normal (observation:present)\", \"related\": [\"trachea (location:present)\", \"both main bronchi (location:present)\"]}, {\"anchor\": \"occlusive pathology (observation:absent)\", \"related\": [\"trachea (location:present)\", \"both main bronchi (location:present)\"]}, {\"anchor\": \"mass (observation:absent)\", \"related\": [\"lung (location:present)\"]}, {\"anchor\": \"infiltrative lesion (observation:absent)\", \"related\": [\"lung (location:present)\"]}, {\"anchor\": \"free fluid (observation:absent)\", \"related\": [\"upper abdomen (location:present)\"]}, {\"anchor\": \"collection (observation:present)\", \"related\": [\"retrosternal region (location:present)\", \"22 mm (measurement:current)\", \"xiphoid process (location:present)\", \"hemorrhagic (degree:uncertain)\"]}, {\"anchor\": \"lytic-destructive lesions (observation:absent)\", \"related\": [\"bone structures within sections (location:present)\"]}]",
+    "entities": [
+      {
+        "anchor": "enlarged (observation:present)",
+        "related": [
+          "heart (location:present)",
+          "minimally (degree:present)"
+        ]
+      },
+      {
+        "anchor": "pericardial effusion (observation:present)",
+        "related": [
+          "53 mm (measurement:current)",
+          "hyperdense (degree:present)",
+          "hemorrhagic (degree:uncertain)"
+        ]
+      },
+      {
+        "anchor": "calcifications (observation:present)",
+        "related": [
+          "pericardium (location:present)"
+        ]
+      },
+      {
+        "anchor": "surgical materials (observation:present)",
+        "related": [
+          "sternum (location:present)"
+        ]
+      },
+      {
+        "anchor": "air (observation:present)",
+        "related": [
+          "retrosternal region (location:present)",
+          "mediastinum (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:present)",
+        "related": [
+          "bilateral (location:present)",
+          "minimal (degree:present)",
+          "right (location:present)",
+          "20 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "lung (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "lung (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid (observation:absent)",
+        "related": [
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "collection (observation:present)",
+        "related": [
+          "retrosternal region (location:present)",
+          "22 mm (measurement:current)",
+          "xiphoid process (location:present)",
+          "hemorrhagic (degree:uncertain)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bone structures within sections (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valid_1005_b_2",
+    "kind": "ground_truth",
+    "input": "Findings: Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: The heart is minimally larger than normal. There is pericardial effusion measuring approximately 55 mm in its thickest part. Pericardial effusion is observed as hyperdense and was considered to be hemorrhagic. There are also calcifications in the pericardium. Surgical materials are observed in the sternum. Air is observed in the retrosternal region and mediastinum and is thought to be compatible with the postoperative change. Bilateral minimal pleural effusion, more prominent on the right, is observed. The pleural effusion measured approximately 20 mm at its thickest point. The widths of the mediastinal main vascular structures are normal. No pathologically enlarged lymph nodes were detected in the mediastinum and hilar regions. Trachea and both main bronchi are normal. No occlusive pathology was detected in the trachea and both main bronchi. No mass or infiltrative lesion was detected in both lungs. No upper abdominal free fluid-collection was observed in the sections. In the retrosternal region, there is a collection with an anterior-posterior diameter of 22 mm at its widest point, extending towards the subcutaneous fat tissue at the level of the xiphoid process. The collection was considered to be hemorrhagic. This collection appears to be associated with pericardial effusion. No lytic-destructive lesions were detected in the bone structures within the sections. Impression: Pericardial effusion thought to be of hemorrhagic content. Calcifications in the pericardium. Bilateral minimal pleural effusion.",
+    "raw_output": "[{\"anchor\": \"pericardial effusion (observation:present)\", \"related\": [\"55 mm (measurement:current)\", \"hyperdense (degree:present)\", \"hemorrhagic (degree:uncertain)\"]}, {\"anchor\": \"calcifications (observation:present)\", \"related\": [\"pericardium (location:present)\"]}, {\"anchor\": \"surgical materials (observation:present)\", \"related\": [\"sternum (location:present)\"]}, {\"anchor\": \"air (observation:present)\", \"related\": [\"retrosternal region (location:present)\", \"mediastinum (location:present)\"]}, {\"anchor\": \"pleural effusion (observation:present)\", \"related\": [\"bilateral (location:present)\", \"minimal (degree:present)\", \"right (location:present)\", \"20 mm (measurement:current)\"]}, {\"anchor\": \"normal (observation:present)\", \"related\": [\"mediastinal main vascular structures (location:present)\"]}, {\"anchor\": \"pathologically enlarged lymph nodes (observation:absent)\", \"related\": [\"mediastinum (location:present)\", \"hilar regions (location:present)\"]}, {\"anchor\": \"normal (observation:present)\", \"related\": [\"trachea (location:present)\", \"both main bronchi (location:present)\"]}, {\"anchor\": \"occlusive pathology (observation:absent)\", \"related\": [\"trachea (location:present)\", \"both main bronchi (location:present)\"]}, {\"anchor\": \"mass (observation:absent)\", \"related\": [\"both lungs (location:present)\"]}, {\"anchor\": \"infiltrative lesion (observation:absent)\", \"related\": [\"both lungs (location:present)\"]}, {\"anchor\": \"free fluid-collection (observation:absent)\", \"related\": [\"upper abdominal (location:present)\"]}, {\"anchor\": \"collection (observation:present)\", \"related\": [\"retrosternal region (location:present)\", \"anterior-posterior diameter of 22 mm (measurement:current)\", \"xiphoid process (location:present)\", \"hemorrhagic (degree:uncertain)\"]}, {\"anchor\": \"lytic-destructive lesions (observation:absent)\", \"related\": [\"bone structures within the sections (location:present)\"]}]",
+    "entities": [
+      {
+        "anchor": "pericardial effusion (observation:present)",
+        "related": [
+          "55 mm (measurement:current)",
+          "hyperdense (degree:present)",
+          "hemorrhagic (degree:uncertain)"
+        ]
+      },
+      {
+        "anchor": "calcifications (observation:present)",
+        "related": [
+          "pericardium (location:present)"
+        ]
+      },
+      {
+        "anchor": "surgical materials (observation:present)",
+        "related": [
+          "sternum (location:present)"
+        ]
+      },
+      {
+        "anchor": "air (observation:present)",
+        "related": [
+          "retrosternal region (location:present)",
+          "mediastinum (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion (observation:present)",
+        "related": [
+          "bilateral (location:present)",
+          "minimal (degree:present)",
+          "right (location:present)",
+          "20 mm (measurement:current)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "mediastinal main vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathologically enlarged lymph nodes (observation:absent)",
+        "related": [
+          "mediastinum (location:present)",
+          "hilar regions (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal (observation:present)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "occlusive pathology (observation:absent)",
+        "related": [
+          "trachea (location:present)",
+          "both main bronchi (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltrative lesion (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "free fluid-collection (observation:absent)",
+        "related": [
+          "upper abdominal (location:present)"
+        ]
+      },
+      {
+        "anchor": "collection (observation:present)",
+        "related": [
+          "retrosternal region (location:present)",
+          "anterior-posterior diameter of 22 mm (measurement:current)",
+          "xiphoid process (location:present)",
+          "hemorrhagic (degree:uncertain)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesions (observation:absent)",
+        "related": [
+          "bone structures within the sections (location:present)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valid_1003_a_1",
+    "kind": "generated",
+    "input": "Findings: A triangular density consistent with thymic remnant is observed in the anterior mediastinum. There is a millimetric lymph node in the right upper paratracheal region. No pathological LAP was detected in the mediastinum. The heart and mediastinal vascular structures have a normal appearance. Pleural effusion-thickening was not detected in either hemithorax. In the evaluation of both lung parenchyma; No mass, nodule or infiltration was detected in both lungs. No significant pathology was detected in the sections passing through the upper abdomen. No lytic-destructive lesion was detected in bone structures.Impression: No infiltration was detected in both lung parenchyma.",
+    "raw_output": "[{\"anchor\": \"triangular density (observation:present)\", \"related\": [\"anterior mediastinum (location:present)\"]}, {\"anchor\": \"lymph node (observation:present)\", \"related\": [\"millimetric (degree:present)\", \"right upper paratracheal region (location:present)\"]}, {\"anchor\": \"pathological LAP (observation:absent)\", \"related\": [\"mediastinum (location:present)\"]}, {\"anchor\": \"normal appearance (observation:present)\", \"related\": [\"heart (location:present)\", \"mediastinal vascular structures (location:present)\"]}, {\"anchor\": \"pleural effusion-thickening (observation:absent)\", \"related\": [\"both hemithorax (location:present)\"]}, {\"anchor\": \"mass (observation:absent)\", \"related\": [\"both lungs (location:present)\"]}, {\"anchor\": \"nodule (observation:absent)\", \"related\": [\"both lungs (location:present)\"]}, {\"anchor\": \"infiltration (observation:absent)\", \"related\": [\"both lung parenchyma (location:present)\"]}, {\"anchor\": \"pathology (observation:absent)\", \"related\": [\"upper abdomen (location:present)\"]}, {\"anchor\": \"lytic-destructive lesion (observation:absent)\", \"related\": [\"bone structures (location:present)\"]}]",
+    "entities": [
+      {
+        "anchor": "triangular density (observation:present)",
+        "related": [
+          "anterior mediastinum (location:present)"
+        ]
+      },
+      {
+        "anchor": "lymph node (observation:present)",
+        "related": [
+          "millimetric (degree:present)",
+          "right upper paratracheal region (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathological LAP (observation:absent)",
+        "related": [
+          "mediastinum (location:present)"
+        ]
+      },
+      {
+        "anchor": "normal appearance (observation:present)",
+        "related": [
+          "heart (location:present)",
+          "mediastinal vascular structures (location:present)"
+        ]
+      },
+      {
+        "anchor": "pleural effusion-thickening (observation:absent)",
+        "related": [
+          "both hemithorax (location:present)"
+        ]
+      },
+      {
+        "anchor": "mass (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "nodule (observation:absent)",
+        "related": [
+          "both lungs (location:present)"
+        ]
+      },
+      {
+        "anchor": "infiltration (observation:absent)",
+        "related": [
+          "both lung parenchyma (location:present)"
+        ]
+      },
+      {
+        "anchor": "pathology (observation:absent)",
+        "related": [
+          "upper abdomen (location:present)"
+        ]
+      },
+      {
+        "anchor": "lytic-destructive lesion (observation:absent)",
+        "related": [
+          "bone structures (location:present)"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+field,tp,fp,fn,contradictions,precision,recall,f1,coverage
+observation,16,56,46,0,0.2222,0.2581,0.2388,0.2222
+location,16,49,57,0,0.2462,0.2192,0.2319,0.2192
+degree,3,23,11,0,0.1154,0.2143,0.15,0.1154
+trend,0,2,5,0,0.0,0.0,0.0,0.0
+_MACRO_FL,,,,,,,0.0935,0.0314
