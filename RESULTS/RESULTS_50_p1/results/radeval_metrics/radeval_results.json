@@ -1,0 +1,1038 @@
+{
+  "metrics_run": [
+    "bleu",
+    "rouge",
+    "bertscore",
+    "radeval_bertscore",
+    "f1radbert_ct"
+  ],
+  "report_count": 21,
+  "aggregate": {
+    "bleu": 0.2388,
+    "bleu_1": 0.4311,
+    "bleu_2": 0.3333,
+    "bleu_3": 0.2755,
+    "rouge1": 0.5654,
+    "rouge2": 0.3403,
+    "rougeL": 0.4045,
+    "bertscore": 0.6242,
+    "radeval_bertscore": 0.6925,
+    "f1radbert_ct_accuracy": 0.0476,
+    "f1radbert_ct_micro_f1": 0.2124,
+    "f1radbert_ct_macro_f1": 0.1451,
+    "f1radbert_ct_weighted_f1": 0.194
+  },
+  "detailed": {
+    "f1radbert_ct_label_scores_f1": {
+      "Medical material": 0.0,
+      "Arterial wall calcification": 0.25,
+      "Cardiomegaly": 0.0,
+      "Pericardial effusion": 0.0,
+      "Coronary artery wall calcification": 0.2222222222222222,
+      "Hiatal hernia": 0.0,
+      "Lymphadenopathy": 0.0,
+      "Emphysema": 0.16666666666666666,
+      "Atelectasis": 0.0,
+      "Lung nodule": 0.42105263157894735,
+      "Lung opacity": 0.3076923076923077,
+      "Pulmonary fibrotic sequela": 0.0,
+      "Pleural effusion": 0.0,
+      "Mosaic attenuation pattern": 0.0,
+      "Peribronchial thickening": 0.0,
+      "Consolidation": 0.0,
+      "Bronchiectasis": 0.5,
+      "Interlobular septal thickening": 0.6666666666666666,
+      "No finding": 0.2222222222222222
+    }
+  },
+  "per_sample_file": "radeval_per_sample_raw.json",
+  "report_ids": [
+    "report_generation_1407, valid_589_a_1.nii.gz",
+    "report_generation_1574, valid_666_a_1.nii.gz",
+    "report_generation_1596, valid_674_a_1.nii.gz",
+    "report_generation_1610, valid_679_a_1.nii.gz",
+    "report_generation_1666, valid_707_a_1.nii.gz",
+    "report_generation_1670, valid_709_a_1.nii.gz",
+    "report_generation_1689, valid_716_a_1.nii.gz",
+    "report_generation_1752, valid_742_a_1.nii.gz",
+    "report_generation_1812, valid_771_a_1.nii.gz",
+    "report_generation_1988, valid_844_a_1.nii.gz",
+    "report_generation_1992, valid_845_a_1.nii.gz",
+    "report_generation_2016, valid_852_a_1.nii.gz",
+    "report_generation_946, valid_406_a_1.nii.gz",
+    "report_generation_1030, valid_440_a_1.nii.gz",
+    "report_generation_1128, valid_479_a_1.nii.gz",
+    "report_generation_1134, valid_482_a_1.nii.gz",
+    "report_generation_1190, valid_498_a_1.nii.gz",
+    "report_generation_1210, valid_504_a_1.nii.gz",
+    "report_generation_1234, valid_515_a_1.nii.gz",
+    "report_generation_1249, valid_523_a_1.nii.gz",
+    "report_generation_1304, valid_544_a_1.nii.gz"
+  ],
+  "correlations": {
+    "bleu": {
+      "FD": {
+        "n": 21,
+        "pearson": {
+          "r": -0.3801,
+          "p": 0.0892
+        },
+        "spearman": {
+          "r": -0.3981,
+          "p": 0.0739
+        },
+        "kendall_tau": {
+          "tau": -0.2762,
+          "p": 0.0799
+        }
+      },
+      "FO": {
+        "n": 21,
+        "pearson": {
+          "r": -0.0574,
+          "p": 0.8048
+        },
+        "spearman": {
+          "r": -0.1172,
+          "p": 0.6128
+        },
+        "kendall_tau": {
+          "tau": -0.0524,
+          "p": 0.7398
+        }
+      },
+      "Loc": {
+        "n": 21,
+        "pearson": {
+          "r": -0.201,
+          "p": 0.3824
+        },
+        "spearman": {
+          "r": -0.3693,
+          "p": 0.0995
+        },
+        "kendall_tau": {
+          "tau": -0.0952,
+          "p": 0.5459
+        }
+      },
+      "Sev": {
+        "n": 21,
+        "pearson": {
+          "r": -0.068,
+          "p": 0.7697
+        },
+        "spearman": {
+          "r": -0.02,
+          "p": 0.9313
+        },
+        "kendall_tau": {
+          "tau": -0.0095,
+          "p": 0.9518
+        }
+      },
+      "Trend": {
+        "note": "sıfır varyans — korelasyon tanımsız"
+      },
+      "Attr": {
+        "n": 21,
+        "pearson": {
+          "r": -0.3945,
+          "p": 0.0768
+        },
+        "spearman": {
+          "r": -0.3936,
+          "p": 0.0775
+        },
+        "kendall_tau": {
+          "tau": -0.2381,
+          "p": 0.1311
+        }
+      },
+      "Total": {
+        "n": 21,
+        "pearson": {
+          "r": -0.3617,
+          "p": 0.1071
+        },
+        "spearman": {
+          "r": -0.4438,
+          "p": 0.0439
+        },
+        "kendall_tau": {
+          "tau": -0.2952,
+          "p": 0.0612
+        }
+      }
+    },
+    "rouge1": {
+      "FD": {
+        "n": 21,
+        "pearson": {
+          "r": -0.2468,
+          "p": 0.2809
+        },
+        "spearman": {
+          "r": -0.2018,
+          "p": 0.3805
+        },
+        "kendall_tau": {
+          "tau": -0.1333,
+          "p": 0.3978
+        }
+      },
+      "FO": {
+        "n": 21,
+        "pearson": {
+          "r": -0.3044,
+          "p": 0.1798
+        },
+        "spearman": {
+          "r": -0.351,
+          "p": 0.1187
+        },
+        "kendall_tau": {
+          "tau": -0.2333,
+          "p": 0.139
+        }
+      },
+      "Loc": {
+        "n": 21,
+        "pearson": {
+          "r": -0.3181,
+          "p": 0.1599
+        },
+        "spearman": {
+          "r": -0.3693,
+          "p": 0.0995
+        },
+        "kendall_tau": {
+          "tau": -0.0952,
+          "p": 0.5459
+        }
+      },
+      "Sev": {
+        "n": 21,
+        "pearson": {
+          "r": -0.1824,
+          "p": 0.4287
+        },
+        "spearman": {
+          "r": -0.1602,
+          "p": 0.4878
+        },
+        "kendall_tau": {
+          "tau": -0.0762,
+          "p": 0.629
+        }
+      },
+      "Trend": {
+        "note": "sıfır varyans — korelasyon tanımsız"
+      },
+      "Attr": {
+        "n": 21,
+        "pearson": {
+          "r": -0.4764,
+          "p": 0.029
+        },
+        "spearman": {
+          "r": -0.4409,
+          "p": 0.0454
+        },
+        "kendall_tau": {
+          "tau": -0.2667,
+          "p": 0.0908
+        }
+      },
+      "Total": {
+        "n": 21,
+        "pearson": {
+          "r": -0.5363,
+          "p": 0.0122
+        },
+        "spearman": {
+          "r": -0.5412,
+          "p": 0.0113
+        },
+        "kendall_tau": {
+          "tau": -0.3714,
+          "p": 0.0185
+        }
+      }
+    },
+    "rouge2": {
+      "FD": {
+        "n": 21,
+        "pearson": {
+          "r": -0.4291,
+          "p": 0.0523
+        },
+        "spearman": {
+          "r": -0.3736,
+          "p": 0.0952
+        },
+        "kendall_tau": {
+          "tau": -0.2571,
+          "p": 0.103
+        }
+      },
+      "FO": {
+        "n": 21,
+        "pearson": {
+          "r": -0.0215,
+          "p": 0.9264
+        },
+        "spearman": {
+          "r": -0.0191,
+          "p": 0.9345
+        },
+        "kendall_tau": {
+          "tau": -0.0429,
+          "p": 0.7858
+        }
+      },
+      "Loc": {
+        "n": 21,
+        "pearson": {
+          "r": -0.2254,
+          "p": 0.326
+        },
+        "spearman": {
+          "r": -0.3693,
+          "p": 0.0995
+        },
+        "kendall_tau": {
+          "tau": -0.0952,
+          "p": 0.5459
+        }
+      },
+      "Sev": {
+        "n": 21,
+        "pearson": {
+          "r": -0.0667,
+          "p": 0.774
+        },
+        "spearman": {
+          "r": 0.0,
+          "p": 1.0
+        },
+        "kendall_tau": {
+          "tau": 0.0,
+          "p": 1.0
+        }
+      },
+      "Trend": {
+        "note": "sıfır varyans — korelasyon tanımsız"
+      },
+      "Attr": {
+        "n": 21,
+        "pearson": {
+          "r": -0.4363,
+          "p": 0.048
+        },
+        "spearman": {
+          "r": -0.4251,
+          "p": 0.0547
+        },
+        "kendall_tau": {
+          "tau": -0.2571,
+          "p": 0.103
+        }
+      },
+      "Total": {
+        "n": 21,
+        "pearson": {
+          "r": -0.3703,
+          "p": 0.0985
+        },
+        "spearman": {
+          "r": -0.3891,
+          "p": 0.0813
+        },
+        "kendall_tau": {
+          "tau": -0.2667,
+          "p": 0.0908
+        }
+      }
+    },
+    "rougeL": {
+      "FD": {
+        "n": 21,
+        "pearson": {
+          "r": -0.4483,
+          "p": 0.0416
+        },
+        "spearman": {
+          "r": -0.3947,
+          "p": 0.0766
+        },
+        "kendall_tau": {
+          "tau": -0.2667,
+          "p": 0.0908
+        }
+      },
+      "FO": {
+        "n": 21,
+        "pearson": {
+          "r": -0.0535,
+          "p": 0.8178
+        },
+        "spearman": {
+          "r": -0.0428,
+          "p": 0.8538
+        },
+        "kendall_tau": {
+          "tau": -0.0333,
+          "p": 0.8326
+        }
+      },
+      "Loc": {
+        "n": 21,
+        "pearson": {
+          "r": -0.2327,
+          "p": 0.3101
+        },
+        "spearman": {
+          "r": -0.3693,
+          "p": 0.0995
+        },
+        "kendall_tau": {
+          "tau": -0.0952,
+          "p": 0.5459
+        }
+      },
+      "Sev": {
+        "n": 21,
+        "pearson": {
+          "r": -0.1066,
+          "p": 0.6457
+        },
+        "spearman": {
+          "r": -0.0601,
+          "p": 0.7959
+        },
+        "kendall_tau": {
+          "tau": -0.0286,
+          "p": 0.8562
+        }
+      },
+      "Trend": {
+        "note": "sıfır varyans — korelasyon tanımsız"
+      },
+      "Attr": {
+        "n": 21,
+        "pearson": {
+          "r": -0.4853,
+          "p": 0.0258
+        },
+        "spearman": {
+          "r": -0.4881,
+          "p": 0.0248
+        },
+        "kendall_tau": {
+          "tau": -0.2952,
+          "p": 0.0612
+        }
+      },
+      "Total": {
+        "n": 21,
+        "pearson": {
+          "r": -0.4241,
+          "p": 0.0554
+        },
+        "spearman": {
+          "r": -0.4286,
+          "p": 0.0525
+        },
+        "kendall_tau": {
+          "tau": -0.2762,
+          "p": 0.0799
+        }
+      }
+    },
+    "bertscore": {
+      "FD": {
+        "n": 21,
+        "pearson": {
+          "r": -0.4453,
+          "p": 0.0431
+        },
+        "spearman": {
+          "r": -0.4755,
+          "p": 0.0293
+        },
+        "kendall_tau": {
+          "tau": -0.3238,
+          "p": 0.04
+        }
+      },
+      "FO": {
+        "n": 21,
+        "pearson": {
+          "r": -0.1725,
+          "p": 0.4547
+        },
+        "spearman": {
+          "r": -0.166,
+          "p": 0.4721
+        },
+        "kendall_tau": {
+          "tau": -0.1095,
+          "p": 0.4874
+        }
+      },
+      "Loc": {
+        "n": 21,
+        "pearson": {
+          "r": -0.2545,
+          "p": 0.2655
+        },
+        "spearman": {
+          "r": -0.3323,
+          "p": 0.141
+        },
+        "kendall_tau": {
+          "tau": -0.0857,
+          "p": 0.5868
+        }
+      },
+      "Sev": {
+        "n": 21,
+        "pearson": {
+          "r": -0.2491,
+          "p": 0.2761
+        },
+        "spearman": {
+          "r": -0.2003,
+          "p": 0.3841
+        },
+        "kendall_tau": {
+          "tau": -0.0952,
+          "p": 0.5459
+        }
+      },
+      "Trend": {
+        "note": "sıfır varyans — korelasyon tanımsız"
+      },
+      "Attr": {
+        "n": 21,
+        "pearson": {
+          "r": -0.5407,
+          "p": 0.0114
+        },
+        "spearman": {
+          "r": -0.5511,
+          "p": 0.0096
+        },
+        "kendall_tau": {
+          "tau": -0.3333,
+          "p": 0.0345
+        }
+      },
+      "Total": {
+        "n": 21,
+        "pearson": {
+          "r": -0.5557,
+          "p": 0.0089
+        },
+        "spearman": {
+          "r": -0.5814,
+          "p": 0.0057
+        },
+        "kendall_tau": {
+          "tau": -0.4095,
+          "p": 0.0094
+        }
+      }
+    },
+    "radeval_bertscore": {
+      "FD": {
+        "n": 21,
+        "pearson": {
+          "r": -0.2421,
+          "p": 0.2904
+        },
+        "spearman": {
+          "r": -0.1814,
+          "p": 0.4314
+        },
+        "kendall_tau": {
+          "tau": -0.1333,
+          "p": 0.3978
+        }
+      },
+      "FO": {
+        "n": 21,
+        "pearson": {
+          "r": -0.1951,
+          "p": 0.3968
+        },
+        "spearman": {
+          "r": -0.2575,
+          "p": 0.2598
+        },
+        "kendall_tau": {
+          "tau": -0.1381,
+          "p": 0.3812
+        }
+      },
+      "Loc": {
+        "n": 21,
+        "pearson": {
+          "r": -0.0645,
+          "p": 0.7812
+        },
+        "spearman": {
+          "r": -0.0739,
+          "p": 0.7504
+        },
+        "kendall_tau": {
+          "tau": -0.019,
+          "p": 0.9039
+        }
+      },
+      "Sev": {
+        "n": 21,
+        "pearson": {
+          "r": -0.0475,
+          "p": 0.8379
+        },
+        "spearman": {
+          "r": 0.0,
+          "p": 1.0
+        },
+        "kendall_tau": {
+          "tau": 0.0,
+          "p": 1.0
+        }
+      },
+      "Trend": {
+        "note": "sıfır varyans — korelasyon tanımsız"
+      },
+      "Attr": {
+        "n": 21,
+        "pearson": {
+          "r": -0.3668,
+          "p": 0.102
+        },
+        "spearman": {
+          "r": -0.3307,
+          "p": 0.1432
+        },
+        "kendall_tau": {
+          "tau": -0.2,
+          "p": 0.2047
+        }
+      },
+      "Total": {
+        "n": 21,
+        "pearson": {
+          "r": -0.3756,
+          "p": 0.0934
+        },
+        "spearman": {
+          "r": -0.428,
+          "p": 0.053
+        },
+        "kendall_tau": {
+          "tau": -0.2857,
+          "p": 0.07
+        }
+      }
+    },
+    "f1radbert_ct_sample_acc": {
+      "FD": {
+        "n": 21,
+        "pearson": {
+          "r": -0.2477,
+          "p": 0.279
+        },
+        "spearman": {
+          "r": -0.2511,
+          "p": 0.2722
+        },
+        "kendall_tau": {
+          "tau": -0.0619,
+          "p": 0.6946
+        }
+      },
+      "FO": {
+        "n": 21,
+        "pearson": {
+          "r": -0.3027,
+          "p": 0.1822
+        },
+        "spearman": {
+          "r": -0.3184,
+          "p": 0.1596
+        },
+        "kendall_tau": {
+          "tau": -0.081,
+          "p": 0.6077
+        }
+      },
+      "Loc": {
+        "n": 21,
+        "pearson": {
+          "r": -0.05,
+          "p": 0.8296
+        },
+        "spearman": {
+          "r": -0.05,
+          "p": 0.8296
+        },
+        "kendall_tau": {
+          "tau": -0.0048,
+          "p": 0.9759
+        }
+      },
+      "Sev": {
+        "n": 21,
+        "pearson": {
+          "r": -0.1085,
+          "p": 0.6398
+        },
+        "spearman": {
+          "r": -0.1085,
+          "p": 0.6398
+        },
+        "kendall_tau": {
+          "tau": -0.019,
+          "p": 0.9039
+        }
+      },
+      "Trend": {
+        "note": "sıfır varyans — korelasyon tanımsız"
+      },
+      "Attr": {
+        "n": 21,
+        "pearson": {
+          "r": -0.2132,
+          "p": 0.3535
+        },
+        "spearman": {
+          "r": -0.2132,
+          "p": 0.3535
+        },
+        "kendall_tau": {
+          "tau": -0.0476,
+          "p": 0.7627
+        }
+      },
+      "Total": {
+        "n": 21,
+        "pearson": {
+          "r": -0.4382,
+          "p": 0.0469
+        },
+        "spearman": {
+          "r": -0.3744,
+          "p": 0.0945
+        },
+        "kendall_tau": {
+          "tau": -0.0952,
+          "p": 0.5459
+        }
+      }
+    }
+  },
+  "ai_radcliq_scores": {
+    "report_generation_92, valid_45_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 4
+    },
+    "report_generation_106, valid_52_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 6
+    },
+    "report_generation_150, valid_66_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 7
+    },
+    "report_generation_174, valid_79_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 5
+    },
+    "report_generation_443, valid_193_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 8
+    },
+    "report_generation_482, valid_209_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 5,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 5
+    },
+    "report_generation_553, valid_241_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 3
+    },
+    "report_generation_561, valid_245_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 2,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 6
+    },
+    "report_generation_696, valid_298_a_1.nii.gz": {
+      "FD": 1,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 4
+    },
+    "report_generation_714, valid_307_a_1.nii.gz": {
+      "FD": 1,
+      "FO": 0,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 1
+    },
+    "report_generation_850, valid_362_a_1.nii.gz": {
+      "FD": 1,
+      "FO": 8,
+      "Loc": 0,
+      "Sev": 1,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 11
+    },
+    "report_generation_920, valid_391_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 6,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 10
+    },
+    "report_generation_1407, valid_589_a_1.nii.gz": {
+      "FD": 1,
+      "FO": 2,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 3
+    },
+    "report_generation_1574, valid_666_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 2,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 6
+    },
+    "report_generation_1596, valid_674_a_1.nii.gz": {
+      "FD": 1,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 4
+    },
+    "report_generation_1610, valid_679_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 2,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 5
+    },
+    "report_generation_1666, valid_707_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 7,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 10
+    },
+    "report_generation_1670, valid_709_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 4
+    },
+    "report_generation_1689, valid_716_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 3
+    },
+    "report_generation_1752, valid_742_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 1,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 1
+    },
+    "report_generation_1812, valid_771_a_1.nii.gz": {
+      "FD": 1,
+      "FO": 6,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 7
+    },
+    "report_generation_1988, valid_844_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 4
+    },
+    "report_generation_1992, valid_845_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 1,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 6
+    },
+    "report_generation_2016, valid_852_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 6
+    },
+    "report_generation_946, valid_406_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 3
+    },
+    "report_generation_1030, valid_440_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 0,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 3
+    },
+    "report_generation_1128, valid_479_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 2,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 6
+    },
+    "report_generation_1134, valid_482_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 5,
+      "Loc": 0,
+      "Sev": 1,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 9
+    },
+    "report_generation_1190, valid_498_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 1,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 4
+    },
+    "report_generation_1210, valid_504_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 1,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 8
+    },
+    "report_generation_1234, valid_515_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 1,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 8
+    },
+    "report_generation_1249, valid_523_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 6,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 6
+    },
+    "report_generation_1304, valid_544_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 5,
+      "Loc": 1,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 7
+    }
+  }
+}

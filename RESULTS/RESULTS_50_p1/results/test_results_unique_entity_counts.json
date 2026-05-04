@@ -1,0 +1,1687 @@
+[
+  {
+    "name": "normal",
+    "field_name": "observation",
+    "count": 136
+  },
+  {
+    "name": "both lungs",
+    "field_name": "location",
+    "count": 51
+  },
+  {
+    "name": "bone structures",
+    "field_name": "location",
+    "count": 42
+  },
+  {
+    "name": "trachea",
+    "field_name": "location",
+    "count": 41
+  },
+  {
+    "name": "thoracic esophagus",
+    "field_name": "location",
+    "count": 37
+  },
+  {
+    "name": "both main bronchi",
+    "field_name": "location",
+    "count": 35
+  },
+  {
+    "name": "space-occupying lesion",
+    "field_name": "observation",
+    "count": 33
+  },
+  {
+    "name": "open",
+    "field_name": "observation",
+    "count": 32
+  },
+  {
+    "name": "natural",
+    "field_name": "degree",
+    "count": 30
+  },
+  {
+    "name": "pericardial effusion",
+    "field_name": "observation",
+    "count": 29
+  },
+  {
+    "name": "bilateral adrenal glands",
+    "field_name": "location",
+    "count": 26
+  },
+  {
+    "name": "significant",
+    "field_name": "degree",
+    "count": 24
+  },
+  {
+    "name": "mediastinal main vascular structures",
+    "field_name": "location",
+    "count": 23
+  },
+  {
+    "name": "upper abdominal organs",
+    "field_name": "location",
+    "count": 23
+  },
+  {
+    "name": "pericardial thickening",
+    "field_name": "observation",
+    "count": 23
+  },
+  {
+    "name": "pleural effusion",
+    "field_name": "observation",
+    "count": 21
+  },
+  {
+    "name": "lung parenchyma",
+    "field_name": "location",
+    "count": 20
+  },
+  {
+    "name": "preserved",
+    "field_name": "observation",
+    "count": 20
+  },
+  {
+    "name": "bilateral hilar",
+    "field_name": "location",
+    "count": 19
+  },
+  {
+    "name": "heart contour",
+    "field_name": "location",
+    "count": 18
+  },
+  {
+    "name": "heart size",
+    "field_name": "location",
+    "count": 18
+  },
+  {
+    "name": "tumoral wall thickening",
+    "field_name": "observation",
+    "count": 18
+  },
+  {
+    "name": "enlarged lymph nodes",
+    "field_name": "observation",
+    "count": 18
+  },
+  {
+    "name": "liver",
+    "field_name": "location",
+    "count": 17
+  },
+  {
+    "name": "prevascular",
+    "field_name": "location",
+    "count": 17
+  },
+  {
+    "name": "pre-paratracheal",
+    "field_name": "location",
+    "count": 17
+  },
+  {
+    "name": "subcarinal",
+    "field_name": "location",
+    "count": 17
+  },
+  {
+    "name": "bilateral axillary",
+    "field_name": "location",
+    "count": 17
+  },
+  {
+    "name": "vertebral corpus heights",
+    "field_name": "location",
+    "count": 16
+  },
+  {
+    "name": "minimal",
+    "field_name": "degree",
+    "count": 15
+  },
+  {
+    "name": "thoracic aorta",
+    "field_name": "location",
+    "count": 15
+  },
+  {
+    "name": "mediastinum",
+    "field_name": "location",
+    "count": 14
+  },
+  {
+    "name": "pleural thickening",
+    "field_name": "observation",
+    "count": 14
+  },
+  {
+    "name": "heart",
+    "field_name": "location",
+    "count": 13
+  },
+  {
+    "name": "mass",
+    "field_name": "observation",
+    "count": 12
+  },
+  {
+    "name": "infiltrative lesion",
+    "field_name": "observation",
+    "count": 12
+  },
+  {
+    "name": "both lung parenchyma",
+    "field_name": "location",
+    "count": 10
+  },
+  {
+    "name": "millimetric",
+    "field_name": "degree",
+    "count": 9
+  },
+  {
+    "name": "occlusive pathology",
+    "field_name": "observation",
+    "count": 9
+  },
+  {
+    "name": "nonspecific",
+    "field_name": "degree",
+    "count": 8
+  },
+  {
+    "name": "adrenal glands",
+    "field_name": "location",
+    "count": 8
+  },
+  {
+    "name": "nodular lesion",
+    "field_name": "observation",
+    "count": 8
+  },
+  {
+    "name": "nodules",
+    "field_name": "observation",
+    "count": 8
+  },
+  {
+    "name": "distinguishable borders",
+    "field_name": "degree",
+    "count": 7
+  },
+  {
+    "name": "lymph node",
+    "field_name": "observation",
+    "count": 7
+  },
+  {
+    "name": "both hemithorax",
+    "field_name": "location",
+    "count": 6
+  },
+  {
+    "name": "emphysematous changes",
+    "field_name": "observation",
+    "count": 6
+  },
+  {
+    "name": "lytic lesions",
+    "field_name": "observation",
+    "count": 6
+  },
+  {
+    "name": "destructive lesions",
+    "field_name": "observation",
+    "count": 6
+  },
+  {
+    "name": "diffuse",
+    "field_name": "degree",
+    "count": 5
+  },
+  {
+    "name": "patchy",
+    "field_name": "degree",
+    "count": 5
+  },
+  {
+    "name": "upper abdominal sections",
+    "field_name": "location",
+    "count": 5
+  },
+  {
+    "name": "mediastinal structures",
+    "field_name": "location",
+    "count": 5
+  },
+  {
+    "name": "hilar regions",
+    "field_name": "location",
+    "count": 5
+  },
+  {
+    "name": "esophagus",
+    "field_name": "location",
+    "count": 5
+  },
+  {
+    "name": "thoracic vertebral corpus",
+    "field_name": "location",
+    "count": 5
+  },
+  {
+    "name": "neural foramina",
+    "field_name": "location",
+    "count": 5
+  },
+  {
+    "name": "anterior segment of upper lobe of right lung",
+    "field_name": "location",
+    "count": 5
+  },
+  {
+    "name": "covid-19 pneumonia",
+    "field_name": "observation",
+    "count": 5
+  },
+  {
+    "name": "pathological wall thickening",
+    "field_name": "observation",
+    "count": 5
+  },
+  {
+    "name": "pathological",
+    "field_name": "degree",
+    "count": 4
+  },
+  {
+    "name": "mild",
+    "field_name": "degree",
+    "count": 4
+  },
+  {
+    "name": "peripheral",
+    "field_name": "degree",
+    "count": 4
+  },
+  {
+    "name": "intervertebral disc distances",
+    "field_name": "location",
+    "count": 4
+  },
+  {
+    "name": "ascending aorta",
+    "field_name": "location",
+    "count": 4
+  },
+  {
+    "name": "upper abdominal",
+    "field_name": "location",
+    "count": 4
+  },
+  {
+    "name": "main bronchi",
+    "field_name": "location",
+    "count": 4
+  },
+  {
+    "name": "mass lesion",
+    "field_name": "observation",
+    "count": 4
+  },
+  {
+    "name": "free fluid",
+    "field_name": "observation",
+    "count": 4
+  },
+  {
+    "name": "pathology",
+    "field_name": "observation",
+    "count": 4
+  },
+  {
+    "name": "pathologically enlarged lymph nodes",
+    "field_name": "observation",
+    "count": 4
+  },
+  {
+    "name": "lytic lesion",
+    "field_name": "observation",
+    "count": 4
+  },
+  {
+    "name": "destructive lesion",
+    "field_name": "observation",
+    "count": 4
+  },
+  {
+    "name": "lymph nodes",
+    "field_name": "observation",
+    "count": 4
+  },
+  {
+    "name": "peribronchial thickening",
+    "field_name": "observation",
+    "count": 4
+  },
+  {
+    "name": "lymphadenopathy",
+    "field_name": "observation",
+    "count": 4
+  },
+  {
+    "name": "wider than normal",
+    "field_name": "observation",
+    "count": 4
+  },
+  {
+    "name": "pathological size",
+    "field_name": "degree",
+    "count": 3
+  },
+  {
+    "name": "lumen",
+    "field_name": "location",
+    "count": 3
+  },
+  {
+    "name": "posterior segment of right lung upper lobe",
+    "field_name": "location",
+    "count": 3
+  },
+  {
+    "name": "right upper paratracheal",
+    "field_name": "location",
+    "count": 3
+  },
+  {
+    "name": "mediastinal",
+    "field_name": "location",
+    "count": 3
+  },
+  {
+    "name": "thoracic esophageal calibration",
+    "field_name": "location",
+    "count": 3
+  },
+  {
+    "name": "abdominal sections",
+    "field_name": "location",
+    "count": 3
+  },
+  {
+    "name": "behind areola",
+    "field_name": "location",
+    "count": 3
+  },
+  {
+    "name": "left breast",
+    "field_name": "location",
+    "count": 3
+  },
+  {
+    "name": "upper abdominal free fluid",
+    "field_name": "observation",
+    "count": 3
+  },
+  {
+    "name": "upper abdominal free collection",
+    "field_name": "observation",
+    "count": 3
+  },
+  {
+    "name": "ground glass densities",
+    "field_name": "observation",
+    "count": 3
+  },
+  {
+    "name": "obstructive pathology",
+    "field_name": "observation",
+    "count": 3
+  },
+  {
+    "name": "degenerative changes",
+    "field_name": "observation",
+    "count": 3
+  },
+  {
+    "name": "nodule",
+    "field_name": "observation",
+    "count": 3
+  },
+  {
+    "name": "pathological appearance",
+    "field_name": "degree",
+    "count": 2
+  },
+  {
+    "name": "a few",
+    "field_name": "degree",
+    "count": 2
+  },
+  {
+    "name": "nodular",
+    "field_name": "degree",
+    "count": 2
+  },
+  {
+    "name": "subpleural",
+    "field_name": "degree",
+    "count": 2
+  },
+  {
+    "name": "moderate",
+    "field_name": "degree",
+    "count": 2
+  },
+  {
+    "name": "tortuous",
+    "field_name": "degree",
+    "count": 2
+  },
+  {
+    "name": "supraclavicular fossa",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "axilla",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "upper lobes of both lungs",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "right lower paratracheal",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "both lung apexes",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "thoracic main vascular structures",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "right upper lobe",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "coronary arteries",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "perihilar areas of both lungs",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "thyroid gland",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "paracardiac area",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "anterior upper lobe of right lung",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "medial segment of right lung middle lobe",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "mediastinal vascular structures",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "aorta",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "descending aorta",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "lower end of esophagus",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "affected areas",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "right kidney",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "both kidneys",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "upper pole of right kidney",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "bronchial walls",
+    "field_name": "location",
+    "count": 2
+  },
+  {
+    "name": "heart compartments",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "consolidation area",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "fibroatelectatic changes",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "pathological wall thickness increase",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "infiltration",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "calcific plaques",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "osteophytes",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "ground-glass appearance",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "ground-glass densities",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "covid-19 viral pneumonia",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "mosaic attenuation patterns",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "viral pneumonia",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "halo sign",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "wall thickening",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "free collection",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "natural appearance",
+    "field_name": "observation",
+    "count": 2
+  },
+  {
+    "name": "increased",
+    "field_name": "trend",
+    "count": 2
+  },
+  {
+    "name": "some",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "several",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "multilobar",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "multisegmental",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "central",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "multiple",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "showing vascular enlargement",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "pathological dimension",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "pathological dimensions",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "slightly",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "atelectatic background",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "consolidated",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "close",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "partial",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "focal",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "slight",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "irregular contours",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "non-specific",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "slightly irregularly circumscribed",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "sliding type",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "millimeter-sized",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "narrow",
+    "field_name": "degree",
+    "count": 1
+  },
+  {
+    "name": "thyroid parenchyma",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "right lung lower lobe superior segment",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "left lung upper lobe linguloinferior segment",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "spleen",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "pancreas",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "adrenal parenchyma of both kidneys",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "superior part of pancreatic body",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "mediastinal prevascular area",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "aortopulmonary window",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "paratracheal area",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "bilateral hilar region",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "bilateral axillary region",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "central both lungs",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "left hilar",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "posterior segment of upper lobe of right lung",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "left upper lobe",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "right lower lobe",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "left lower lobe superior",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "anterior left kidney upper pole",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "vertebrae",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "anterior",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "bilateral supraclavicular regions",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "bilateral axillary regions",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "basals",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "lingula inferior segment of left lung",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "gallbladder",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "vascular structures in vicinity of ground-glass densities",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "left kidney",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "end plates",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "main vascular structures",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "all lobes of both lungs",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "bilateral pleural area",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "right lung middle lobe medial segment",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "left lung upper lobe lingular segment",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "ground glass area",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "aortic arch",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "vertebral corpus corners",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "midline",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "anterior neighborhood of upper pole of spleen",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "coronary artery",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "upper lobe of right lung",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "around cavitation area",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "perihepatic perisplenic area",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "esophagogastric junction",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "liver contours",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "mediastinal vasc0ular structures",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "right lung",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "superior segment of lower lobe",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "paraaortic",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "lad",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "heart dimensions",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "mediastinal major vascular structures",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "branches",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "lobar bronchi",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "segmental bronchi",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "superior segment of lower lobe of right lung",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "contours of both kidneys",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "basal levels of both lower lobes of the lungs",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "middle lobe of the right lung",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "bilateral lower paratracheal",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "aortic arch walls",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "coronary artery walls",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "left chest wall",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "right ventricle",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "abdominal aorta walls",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "right lung middle lobe",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "lower lobe basal segments",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "bones",
+    "field_name": "location",
+    "count": 1
+  },
+  {
+    "name": "thyroid gland sizes",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "esophageal calibration",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "calibrations of mediastinal major vascular structures",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "heart sizes",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "calibrations of mediastinal main vascular structures",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "infiltrative involvement",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "suspicious nodular lesion",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "nonspecific pulmonary nodules",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "parenchymal aeration",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "space-occupying lesions",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "loculated fluid",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "calcified lymph nodes",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "ground glass appearance",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "infective",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "bronchiectasis",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "nodular halo sign",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "ards",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "infection",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "pathological lymph nodes",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "fibroreticular density increases",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "paraseptal emphysematous changes",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "subpleural nodule",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "mass lesion with distinguishable borders",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "mass lesion with active infiltration",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "vertebral corpus heights preserved",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "crazy paving pattern",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "nodular ground glass opacities",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "azygos fissure",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "lobe",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "ectatic",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "sequelae fibrotic changes",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "cortical exophytic hypodense lesion",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "normal calibration",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "bronchiectatic changes",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "stones",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "diffuse patchy halo signs",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "enlargement of the vascular structures",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "consolidated ground glass densities",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "thickening of interlobular septa",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "infectious processes",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "follow-up",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "dilatations",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "liver sizes increased",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "density reduction",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "tapering",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "effusion",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "subpleural paracardiac consolidation area",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "influenza pneumonia",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "organizing pneumonia",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "drug toxicity",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "connective tissue disease",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "asymmetrical density increase",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "asymmetric breast tissue increase",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "linear atelectasis",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "atheroma plaques",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "hiatal hernia",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "obstructive parotology",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "accessory spleen",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "pathological lymph node",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "within normal limits",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "ground glass density",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "crazy paving appearances",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "cylindrical bronchiectasis",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "vascular enlargement",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "ct involvement score",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "significant pathology",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "obvious pathology",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "calcified atherosclerotic changes",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "thick-walled large cavitation area",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "dense ground-glass-like density increases",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "atypical",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "rarely reported",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "catheter",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "irregular appearance",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "sliding type hiatal hernia",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "mosaic attenuation pattern",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "small airway disease",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "small vessel disease",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "subpleural nodules",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "active infiltration",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "hypodense nodular lesion areas",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "cyst",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "metastasis",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "calcific atherosclerotic plaque",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "calcific atherosclerotic plaques",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "pneumonic infiltration",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "suspicious mass",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "nodular space-occupying lesion",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "focal calcific nodule",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "lobulation",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "fatty liver",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "lytic space-occupying lesion",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "destructive space-occupying lesion",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "thickenings of interlobular septa",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "atelectatic changes",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "calcific nodules",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "tracheopathya osteochondro dysplastica",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "cardiothoracic index",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "pacemaker",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "calcifications",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "interlobular septal thickening",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "infected process",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "covid 19 pneumonia",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "subpleural density",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "interlobular septal thickenings",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "cardiac stasis",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "osteopenia",
+    "field_name": "observation",
+    "count": 1
+  },
+  {
+    "name": "does not differ significantly",
+    "field_name": "trend",
+    "count": 1
+  },
+  {
+    "name": "significant changes",
+    "field_name": "trend",
+    "count": 1
+  },
+  {
+    "name": "reduction in size",
+    "field_name": "trend",
+    "count": 1
+  }
+]

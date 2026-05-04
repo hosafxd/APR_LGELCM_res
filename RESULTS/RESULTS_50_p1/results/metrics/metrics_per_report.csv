@@ -1,0 +1,22 @@
+report_id,ROUGE-1,ROUGE-2,ROUGE-L,BERTScore-F1
+"report_generation_1407, valid_589_a_1.nii.gz",0.5516,0.241,0.2821,0.8596
+"report_generation_1574, valid_666_a_1.nii.gz",0.5508,0.2132,0.2889,0.8493
+"report_generation_1596, valid_674_a_1.nii.gz",0.855,0.7753,0.8256,0.9525
+"report_generation_1610, valid_679_a_1.nii.gz",0.6396,0.3112,0.3706,0.8837
+"report_generation_1666, valid_707_a_1.nii.gz",0.4281,0.2543,0.3082,0.855
+"report_generation_1670, valid_709_a_1.nii.gz",0.5743,0.481,0.534,0.8944
+"report_generation_1689, valid_716_a_1.nii.gz",0.7372,0.6687,0.6949,0.9277
+"report_generation_1752, valid_742_a_1.nii.gz",0.6364,0.3451,0.4965,0.8986
+"report_generation_1812, valid_771_a_1.nii.gz",0.5588,0.355,0.4765,0.8756
+"report_generation_1988, valid_844_a_1.nii.gz",0.5242,0.3037,0.3818,0.8704
+"report_generation_1992, valid_845_a_1.nii.gz",0.5446,0.3971,0.4482,0.8826
+"report_generation_2016, valid_852_a_1.nii.gz",0.5302,0.2164,0.294,0.8651
+"report_generation_946, valid_406_a_1.nii.gz",0.6863,0.6469,0.6756,0.9234
+"report_generation_1030, valid_440_a_1.nii.gz",0.5116,0.2609,0.3455,0.8637
+"report_generation_1128, valid_479_a_1.nii.gz",0.465,0.196,0.25,0.845
+"report_generation_1134, valid_482_a_1.nii.gz",0.6114,0.4506,0.4732,0.875
+"report_generation_1190, valid_498_a_1.nii.gz",0.593,0.2439,0.3073,0.8697
+"report_generation_1210, valid_504_a_1.nii.gz",0.4234,0.1765,0.2523,0.8271
+"report_generation_1234, valid_515_a_1.nii.gz",0.5271,0.2439,0.3028,0.8517
+"report_generation_1249, valid_523_a_1.nii.gz",0.5071,0.1948,0.2507,0.8556
+"report_generation_1304, valid_544_a_1.nii.gz",0.4186,0.1699,0.2368,0.8403

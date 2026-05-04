@@ -1,0 +1,143 @@
+
+============================================================
+  RadEval v3 Değerlendirme Scripti
+============================================================
+[INFO] OpenAI key yok → ['radfact_ct'] atlanacak.
+[INFO] --include_cxr + API key → CXR metrikleri eklendi (crimson dahil).
+[WARN] GREEN metriği ~7B model indirir.
+
+[INFO] Toplam RadEval metriği: 14 — ['bleu', 'rouge', 'bertscore', 'radeval_bertscore', 'f1radbert_ct', 'radgraph', 'radgraph_radcliq', 'radcliq', 'f1chexbert', 'ratescore', 'srrbert', 'temporal', 'green', 'crimson']
+
+──────────────────────────────────────────────────────────
+  [1/14] BLEU
+──────────────────────────────────────────────────────────
+  → bleu: 0.2739  |  bleu_1: 0.4591  |  bleu_2: 0.3669  |  bleu_3: 0.3113
+
+──────────────────────────────────────────────────────────
+  [2/14] ROUGE
+──────────────────────────────────────────────────────────
+  → rouge1: 0.5876  |  rouge2: 0.3755  |  rougeL: 0.4303
+
+──────────────────────────────────────────────────────────
+  [3/14] BERTSCORE
+──────────────────────────────────────────────────────────
+  → bertscore: 0.6325
+
+──────────────────────────────────────────────────────────
+  [4/14] RADEVAL_BERTSCORE
+──────────────────────────────────────────────────────────
+  → radeval_bertscore: 0.7145
+
+──────────────────────────────────────────────────────────
+  [5/14] F1RADBERT_CT
+──────────────────────────────────────────────────────────
+  → f1radbert_ct_accuracy: 0.0000  |  f1radbert_ct_micro_f1: 0.2857  |  f1radbert_ct_macro_f1: 0.1721  |  f1radbert_ct_weighted_f1: 0.2957
+
+──────────────────────────────────────────────────────────
+  [6/14] RADGRAPH
+──────────────────────────────────────────────────────────
+  [SKIP] radgraph: ModuleNotFoundError: No module named 'RadEval'
+  [SKIP] radgraph: ModuleNotFoundError: No module named 'RadEval'
+
+──────────────────────────────────────────────────────────
+  [7/14] RADGRAPH_RADCLIQ
+──────────────────────────────────────────────────────────
+  [SKIP] radgraph_radcliq: ModuleNotFoundError: No module named 'RadEval'
+  [SKIP] radgraph_radcliq: ModuleNotFoundError: No module named 'RadEval'
+
+──────────────────────────────────────────────────────────
+  [8/14] RADCLIQ
+──────────────────────────────────────────────────────────
+  [SKIP] radcliq: ModuleNotFoundError: No module named 'RadEval'
+  [SKIP] radcliq: ModuleNotFoundError: No module named 'RadEval'
+
+──────────────────────────────────────────────────────────
+  [9/14] F1CHEXBERT
+──────────────────────────────────────────────────────────
+  → f1chexbert_5_micro_f1: 0.4000  |  f1chexbert_all_micro_f1: 0.4051  |  f1chexbert_5_macro_f1: 0.3758  |  f1chexbert_all_macro_f1: 0.2239  |  f1chexbert_5_weighted_f1: 0.3636  |  f1chexbert_all_weighted_f1: 0.3897
+
+──────────────────────────────────────────────────────────
+  [10/14] RATESCORE
+──────────────────────────────────────────────────────────
+  → ratescore: 0.6706
+
+──────────────────────────────────────────────────────────
+  [11/14] SRRBERT
+──────────────────────────────────────────────────────────
+  → srrbert_weighted_f1: 0.4585  |  srrbert_weighted_precision: 0.4987  |  srrbert_weighted_recall: 0.4396
+
+──────────────────────────────────────────────────────────
+  [12/14] TEMPORAL
+──────────────────────────────────────────────────────────
+  → temporal_f1: 0.3902
+
+──────────────────────────────────────────────────────────
+  [13/14] GREEN
+──────────────────────────────────────────────────────────
+  → green: 0.4770  |  green_std: 0.2244
+
+──────────────────────────────────────────────────────────
+  [14/14] CRIMSON
+──────────────────────────────────────────────────────────
+  → crimson: -0.2837  |  crimson_std: 0.2849
+
+──────────────────────────────────────────────────────────
+  CIDEr  (pycocoevalcap)
+──────────────────────────────────────────────────────────
+  → cider: 0.0984
+
+──────────────────────────────────────────────────────────
+  BLEU-4  (sacrebleu, max_ngram_order=4)
+──────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────
+  ER2SCORE  (entity-level P / R / F1)
+──────────────────────────────────────────────────────────
+  [SKIP] ER2SCORE: hiçbir rapor eşleşmedi.
+
+──────────────────────────────────────────────────────────
+  KORELAsYON ANALİZİ
+──────────────────────────────────────────────────────────
+  [SKIP] RadCliQ eşleşmesi yetersiz (0 rapor < 3).
+
+============================================================
+  SONUÇ ÖZETİ
+============================================================
+  bertscore                                  0.6325
+  bleu                                       0.2739
+  bleu_1                                     0.4591
+  bleu_2                                     0.3669
+  bleu_3                                     0.3113
+  cider                                      0.0984
+  crimson                                    -0.2837
+  crimson_std                                0.2849
+  f1chexbert_5_macro_f1                      0.3758
+  f1chexbert_5_micro_f1                      0.4000
+  f1chexbert_5_weighted_f1                   0.3636
+  f1chexbert_all_macro_f1                    0.2239
+  f1chexbert_all_micro_f1                    0.4051
+  f1chexbert_all_weighted_f1                 0.3897
+  f1radbert_ct_accuracy                      0.0000
+  f1radbert_ct_macro_f1                      0.1721
+  f1radbert_ct_micro_f1                      0.2857
+  f1radbert_ct_weighted_f1                   0.2957
+  green                                      0.4770
+  green_std                                  0.2244
+  radeval_bertscore                          0.7145
+  ratescore                                  0.6706
+  rouge1                                     0.5876
+  rouge2                                     0.3755
+  rougeL                                     0.4303
+  srrbert_weighted_f1                        0.4585
+  srrbert_weighted_precision                 0.4987
+  srrbert_weighted_recall                    0.4396
+  temporal_f1                                0.3902
+============================================================
+
+[✓] Summary CSV   → /content/drive/MyDrive/lgelcm/results/radeval_metrics/radeval_summary.csv
+[✓] Results JSON  → /content/drive/MyDrive/lgelcm/results/radeval_metrics/radeval_results.json
+[✓] Verbose log   → /content/drive/MyDrive/lgelcm/results/radeval_metrics/radeval.log
+[✓] Per-report CSV → /content/drive/MyDrive/lgelcm/results/radeval_metrics/radeval_per_report.csv
+
+[✓] Değerlendirme tamamlandı.
+

@@ -1,0 +1,14 @@
+metric,score
+bertscore,0.6242
+bleu,0.2388
+bleu_1,0.4311
+bleu_2,0.3333
+bleu_3,0.2755
+f1radbert_ct_accuracy,0.0476
+f1radbert_ct_macro_f1,0.1451
+f1radbert_ct_micro_f1,0.2124
+f1radbert_ct_weighted_f1,0.194
+radeval_bertscore,0.6925
+rouge1,0.5654
+rouge2,0.3403
+rougeL,0.4045

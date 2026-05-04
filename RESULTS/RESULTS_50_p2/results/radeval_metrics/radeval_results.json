@@ -1,0 +1,576 @@
+{
+  "metrics_run": [
+    "bleu",
+    "rouge",
+    "bertscore",
+    "radeval_bertscore",
+    "f1radbert_ct",
+    "radgraph",
+    "radgraph_radcliq",
+    "radcliq",
+    "f1chexbert",
+    "ratescore",
+    "srrbert",
+    "temporal",
+    "green",
+    "crimson"
+  ],
+  "report_count": 17,
+  "aggregate": {
+    "bleu": 0.2739,
+    "bleu_1": 0.4591,
+    "bleu_2": 0.3669,
+    "bleu_3": 0.3113,
+    "rouge1": 0.5876,
+    "rouge2": 0.3755,
+    "rougeL": 0.4303,
+    "bertscore": 0.6325,
+    "radeval_bertscore": 0.7145,
+    "f1radbert_ct_accuracy": 0.0,
+    "f1radbert_ct_micro_f1": 0.2857,
+    "f1radbert_ct_macro_f1": 0.1721,
+    "f1radbert_ct_weighted_f1": 0.2957,
+    "f1chexbert_5_micro_f1": 0.4,
+    "f1chexbert_all_micro_f1": 0.4050632911392405,
+    "f1chexbert_5_macro_f1": 0.37575757575757573,
+    "f1chexbert_all_macro_f1": 0.2238930117501546,
+    "f1chexbert_5_weighted_f1": 0.3636363636363636,
+    "f1chexbert_all_weighted_f1": 0.38970508658008657,
+    "ratescore": 0.6706,
+    "srrbert_weighted_f1": 0.4585,
+    "srrbert_weighted_precision": 0.4987,
+    "srrbert_weighted_recall": 0.4396,
+    "temporal_f1": 0.3902,
+    "green": 0.477,
+    "green_std": 0.2244,
+    "crimson": -0.2837,
+    "crimson_std": 0.2849,
+    "cider": 0.0984
+  },
+  "detailed": {
+    "f1radbert_ct_label_scores_f1": {
+      "Medical material": 0.0,
+      "Arterial wall calcification": 0.3076923076923077,
+      "Cardiomegaly": 0.0,
+      "Pericardial effusion": 0.0,
+      "Coronary artery wall calcification": 0.3333333333333333,
+      "Hiatal hernia": 0.0,
+      "Lymphadenopathy": 0.0,
+      "Emphysema": 0.25,
+      "Atelectasis": 0.3333333333333333,
+      "Lung nodule": 0.5,
+      "Lung opacity": 0.5454545454545454,
+      "Pulmonary fibrotic sequela": 0.0,
+      "Pleural effusion": 0.0,
+      "Mosaic attenuation pattern": 0.0,
+      "Peribronchial thickening": 0.0,
+      "Consolidation": 0.0,
+      "Bronchiectasis": 0.0,
+      "Interlobular septal thickening": 1.0,
+      "No finding": 0.0
+    },
+    "f1chexbert_label_scores_f1": {
+      "f1chexbert_5": {
+        "Cardiomegaly": 0.0,
+        "Edema": 1.0,
+        "Consolidation": 0.0,
+        "Atelectasis": 0.3333333333333333,
+        "Pleural Effusion": 0.5454545454545454
+      },
+      "f1chexbert_all": {
+        "Enlarged Cardiomediastinum": 0.0,
+        "Cardiomegaly": 0.0,
+        "Lung Opacity": 0.0,
+        "Lung Lesion": 0.72,
+        "Edema": 1.0,
+        "Consolidation": 0.0,
+        "Pneumonia": 0.2857142857142857,
+        "Atelectasis": 0.3333333333333333,
+        "Pneumothorax": 0.0,
+        "Pleural Effusion": 0.5454545454545454,
+        "Pleural Other": 0.0,
+        "Fracture": 0.0,
+        "Support Devices": 0.25,
+        "No Finding": 0.0
+      }
+    },
+    "srrbert_label_scores": {
+      "Edema (Present)": {
+        "f1-score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 1.0
+      },
+      "Pneumonia (Present)": {
+        "f1-score": 0.4,
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "support": 3.0
+      },
+      "Atelectasis (Present)": {
+        "f1-score": 0.5714285714285714,
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "support": 4.0
+      },
+      "Nodule/Solitary lung nodule (Present)": {
+        "f1-score": 0.5,
+        "precision": 0.5555555555555556,
+        "recall": 0.45454545454545453,
+        "support": 11.0
+      },
+      "Cavitating mass with content (Present)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1.0
+      },
+      "Emphysema (Present)": {
+        "f1-score": 0.25,
+        "precision": 0.14285714285714285,
+        "recall": 1.0,
+        "support": 1.0
+      },
+      "Hilar lymphadenopathy (Present)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 3.0
+      },
+      "Bronchiectasis (Present)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1.0
+      },
+      "Simple pleural effusion (Present)": {
+        "f1-score": 0.6666666666666666,
+        "precision": 1.0,
+        "recall": 0.5,
+        "support": 2.0
+      },
+      "Loculated pleural effusion (Present)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1.0
+      },
+      "Pleural scarring (Present)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1.0
+      },
+      "Cardiomegaly (Present)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 3.0
+      },
+      "Pericardial effusion (Present)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1.0
+      },
+      "Tortuous Aorta (Present)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1.0
+      },
+      "Calcification of the Aorta (Present)": {
+        "f1-score": 0.3076923076923077,
+        "precision": 0.2857142857142857,
+        "recall": 0.3333333333333333,
+        "support": 6.0
+      },
+      "Enlarged pulmonary artery (Present)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1.0
+      },
+      "Hernia (Present)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 2.0
+      },
+      "Compression fracture (Present)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1.0
+      },
+      "Pneumonia (Uncertain)": {
+        "f1-score": 0.2,
+        "precision": 0.2,
+        "recall": 0.2,
+        "support": 5.0
+      },
+      "Mass/Solitary lung mass (Uncertain)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1.0
+      },
+      "Nodule/Solitary lung nodule (Uncertain)": {
+        "f1-score": 0.2222222222222222,
+        "precision": 0.25,
+        "recall": 0.2,
+        "support": 5.0
+      },
+      "Cavitating mass with content (Uncertain)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1.0
+      },
+      "Mass/Solitary lung mass (Absent)": {
+        "f1-score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1.0
+      },
+      "Simple pleural effusion (Absent)": {
+        "f1-score": 0.4,
+        "precision": 0.4,
+        "recall": 0.4,
+        "support": 5.0
+      },
+      "Pericardial effusion (Absent)": {
+        "f1-score": 0.6,
+        "precision": 0.75,
+        "recall": 0.5,
+        "support": 12.0
+      },
+      "No Finding": {
+        "f1-score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 17.0
+      }
+    }
+  },
+  "per_sample_file": "radeval_per_sample_raw.json",
+  "report_ids": [
+    "report_generation_2036, valid_863_a_1.nii.gz",
+    "report_generation_2062, valid_875_a_1.nii.gz",
+    "report_generation_2091, valid_886_a_1.nii.gz",
+    "report_generation_2311, valid_978_a_1.nii.gz",
+    "report_generation_2445, valid_1033_a_1.nii.gz",
+    "report_generation_2468, valid_1042_a_1.nii.gz",
+    "report_generation_2501, valid_1058_a_1.nii.gz",
+    "report_generation_2576, valid_1091_a_1.nii.gz",
+    "report_generation_2626, valid_1113_a_1.nii.gz",
+    "report_generation_2639, valid_1120_a_1.nii.gz",
+    "report_generation_2743, valid_1169_a_1.nii.gz",
+    "report_generation_2755, valid_1171_a_1.nii.gz",
+    "report_generation_2761, valid_1173_a_1.nii.gz",
+    "report_generation_2791, valid_1187_a_1.nii.gz",
+    "report_generation_2882, valid_1231_a_1.nii.gz",
+    "report_generation_2956, valid_1264_a_1.nii.gz",
+    "report_generation_2991, valid_1281_a_1.nii.gz"
+  ],
+  "correlations": {},
+  "ai_radcliq_scores": {
+    "report_generation_92, valid_45_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 4
+    },
+    "report_generation_106, valid_52_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 6
+    },
+    "report_generation_150, valid_66_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 7
+    },
+    "report_generation_174, valid_79_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 5
+    },
+    "report_generation_443, valid_193_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 8
+    },
+    "report_generation_482, valid_209_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 5,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 5
+    },
+    "report_generation_553, valid_241_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 3
+    },
+    "report_generation_561, valid_245_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 2,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 6
+    },
+    "report_generation_696, valid_298_a_1.nii.gz": {
+      "FD": 1,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 4
+    },
+    "report_generation_714, valid_307_a_1.nii.gz": {
+      "FD": 1,
+      "FO": 0,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 1
+    },
+    "report_generation_850, valid_362_a_1.nii.gz": {
+      "FD": 1,
+      "FO": 8,
+      "Loc": 0,
+      "Sev": 1,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 11
+    },
+    "report_generation_920, valid_391_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 6,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 10
+    },
+    "report_generation_1407, valid_589_a_1.nii.gz": {
+      "FD": 1,
+      "FO": 2,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 3
+    },
+    "report_generation_1574, valid_666_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 2,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 6
+    },
+    "report_generation_1596, valid_674_a_1.nii.gz": {
+      "FD": 1,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 4
+    },
+    "report_generation_1610, valid_679_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 2,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 5
+    },
+    "report_generation_1666, valid_707_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 7,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 10
+    },
+    "report_generation_1670, valid_709_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 4
+    },
+    "report_generation_1689, valid_716_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 3
+    },
+    "report_generation_1752, valid_742_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 1,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 1
+    },
+    "report_generation_1812, valid_771_a_1.nii.gz": {
+      "FD": 1,
+      "FO": 6,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 7
+    },
+    "report_generation_1988, valid_844_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 4
+    },
+    "report_generation_1992, valid_845_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 1,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 6
+    },
+    "report_generation_2016, valid_852_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 6
+    },
+    "report_generation_946, valid_406_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 3,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 3
+    },
+    "report_generation_1030, valid_440_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 0,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 3
+    },
+    "report_generation_1128, valid_479_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 2,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 6
+    },
+    "report_generation_1134, valid_482_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 5,
+      "Loc": 0,
+      "Sev": 1,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 9
+    },
+    "report_generation_1190, valid_498_a_1.nii.gz": {
+      "FD": 3,
+      "FO": 1,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 4
+    },
+    "report_generation_1210, valid_504_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 1,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 8
+    },
+    "report_generation_1234, valid_515_a_1.nii.gz": {
+      "FD": 2,
+      "FO": 4,
+      "Loc": 0,
+      "Sev": 1,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 8
+    },
+    "report_generation_1249, valid_523_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 6,
+      "Loc": 0,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 0,
+      "Total": 6
+    },
+    "report_generation_1304, valid_544_a_1.nii.gz": {
+      "FD": 0,
+      "FO": 5,
+      "Loc": 1,
+      "Sev": 0,
+      "Trend": 0,
+      "Attr": 1,
+      "Total": 7
+    }
+  }
+}
